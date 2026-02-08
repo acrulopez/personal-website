@@ -1,0 +1,44 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+
+const posts = (await getCollection("blog"))
+  .filter((post) => !post.data.draft)
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+---
+
+<BaseLayout title="Blog — Alejandro de la Cruz" description="Articles about web development, software engineering, and more.">
+  <h1 class="mb-8 text-3xl font-bold" style={`color: var(--color-fg-bold);`}>Blog</h1>
+
+  <ul class="space-y-4">
+    {posts.map((post) => (
+      <li>
+        <a
+          href={`/blog/${post.id}/`}
+          class="card group block rounded-lg p-5 hover:-translate-y-0.5"
+        >
+          <h2 class="text-xl font-semibold transition-colors group-hover:text-primary" style={`color: var(--color-fg-bold);`}>
+            {post.data.title}
+          </h2>
+          <p class="mt-2 text-sm" style={`color: var(--color-fg-light);`}>{post.data.description}</p>
+          <div class="mt-3 flex items-center gap-4">
+            <time class="text-xs" style={`color: var(--color-fg-light);`} datetime={post.data.pubDate.toISOString()}>
+              {post.data.pubDate.toLocaleDateString("en-US", {
+                year: "numeric",
+                month: "long",
+                day: "numeric",
+              })}
+            </time>
+            {post.data.tags.length > 0 && (
+              <div class="flex gap-2">
+                {post.data.tags.map((tag) => (
+                  <span class="badge">{tag}</span>
+                ))}
+              </div>
+            )}
+          </div>
+        </a>
+      </li>
+    ))}
+  </ul>
+</BaseLayout>

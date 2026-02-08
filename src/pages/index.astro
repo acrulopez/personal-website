@@ -1,0 +1,69 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+
+const posts = (await getCollection("blog"))
+  .filter((post) => !post.data.draft)
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, 3);
+
+const badges = ["Data Engineer & Architect", "Co-Founder Astrafy Spain"];
+---
+
+<BaseLayout title="Alejandro de la Cruz">
+  <!-- Hero -->
+  <section class="mb-20 flex flex-col items-center text-center">
+    <img
+      src="/me.jpeg"
+      alt="Alejandro de la Cruz"
+      width="160"
+      height="160"
+      class="mb-6 rounded-full"
+      style="box-shadow: 0 0 40px rgba(74, 222, 128, 0.15);"
+    />
+    <h1 class="mb-4 text-4xl font-bold" style={`color: var(--color-fg-bold);`}>
+      Alejandro de la Cruz López
+    </h1>
+    <p class="mb-6 max-w-lg text-lg" style={`color: var(--color-fg-light);`}>
+      Data and open source enthusiast.
+    </p>
+    <div class="mb-8 flex flex-wrap justify-center gap-2">
+      {badges.map((b) => (
+        <span class="badge">{b}</span>
+      ))}
+    </div>
+    <div class="flex gap-4">
+      <a href="/projects/" class="btn-primary">View Projects</a>
+    </div>
+  </section>
+
+  <!-- Recent Posts -->
+  <section>
+    <h2 class="mb-6 text-2xl font-bold" style={`color: var(--color-fg-bold);`}>Recent Posts</h2>
+    <ul class="space-y-4">
+      {posts.map((post) => (
+        <li>
+          <a
+            href={`/blog/${post.id}/`}
+            class="card group block rounded-lg p-5 hover:-translate-y-0.5"
+          >
+            <h3 class="text-lg font-semibold transition-colors group-hover:text-primary" style={`color: var(--color-fg-bold);`}>
+              {post.data.title}
+            </h3>
+            <p class="mt-1 text-sm" style={`color: var(--color-fg-light);`}>{post.data.description}</p>
+            <time class="mt-2 block text-xs" style={`color: var(--color-fg-light);`} datetime={post.data.pubDate.toISOString()}>
+              {post.data.pubDate.toLocaleDateString("en-US", {
+                year: "numeric",
+                month: "long",
+                day: "numeric",
+              })}
+            </time>
+          </a>
+        </li>
+      ))}
+    </ul>
+    <div class="mt-8 text-center">
+      <a href="/blog/" class="link-animated text-sm">View all posts &rarr;</a>
+    </div>
+  </section>
+</BaseLayout>

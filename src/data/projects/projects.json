@@ -1,0 +1,15 @@
+[
+  {
+    "id": "personal-website",
+    "pull_from_github": true,
+    "repo": "https://github.com/acrulopez/personal-website",
+    "url": "https://alejandrodelacruz.com",
+    "featured": true
+  },
+  {
+    "id": "dotfiles",
+    "pull_from_github": true,
+    "repo": "https://github.com/acrulopez/dotfiles",
+    "featured": false
+  }
+]

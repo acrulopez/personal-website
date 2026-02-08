@@ -1,0 +1,60 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+import { fetchGitHubRepoData } from "../../utils/github";
+
+const rawProjects = await getCollection("projects");
+
+// Enrich projects with GitHub data if pull_from_github is enabled
+const projects = await Promise.all(
+  rawProjects.map(async (project) => {
+    if (project.data.pull_from_github && project.data.repo) {
+      const githubData = await fetchGitHubRepoData(project.data.repo);
+      if (githubData) {
+        return {
+          ...project,
+          data: {
+            ...project.data,
+            title: project.data.title || githubData.title,
+            description: project.data.description || githubData.description,
+            tags: project.data.tags.length > 0 ? project.data.tags : githubData.tags,
+          },
+        };
+      }
+    }
+    return project;
+  })
+);
+---
+
+<BaseLayout title="Projects — Alejandro de la Cruz" description="A selection of projects I've built.">
+  <h1 class="mb-8 text-3xl font-bold" style={`color: var(--color-fg-bold);`}>Projects</h1>
+
+  <div class="grid gap-6 sm:grid-cols-2">
+    {projects.map((project) => (
+      <div
+        class="card rounded-lg p-6 hover:-translate-y-1"
+      >
+        <h2 class="text-lg font-semibold" style={`color: var(--color-fg-bold);`}>{project.data.title}</h2>
+        <p class="mt-2 text-sm" style={`color: var(--color-fg-light);`}>{project.data.description}</p>
+        <div class="mt-4 flex flex-wrap gap-2">
+          {project.data.tags.map((tag) => (
+            <span class="badge">{tag}</span>
+          ))}
+        </div>
+        <div class="mt-4 flex gap-4 text-sm">
+          {project.data.url && (
+            <a href={project.data.url} target="_blank" rel="noopener noreferrer" class="link-animated">
+              Live site
+            </a>
+          )}
+          {project.data.repo && (
+            <a href={project.data.repo} target="_blank" rel="noopener noreferrer" class="link-animated">
+              Source code
+            </a>
+          )}
+        </div>
+      </div>
+    ))}
+  </div>
+</BaseLayout>
