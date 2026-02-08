@@ -1,0 +1,258 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+/* ──────────────────── Theme Variables ──────────────────── */
+@theme {
+  /* Backgrounds */
+  --color-bg: #0a0a0a;
+  --color-bg-alt: #111;
+  --color-bg-offset: #1a1a1a;
+
+  /* Foreground */
+  --color-fg: #e5e5e5;
+  --color-fg-bold: #fff;
+  --color-fg-light: #b0b0b5;
+
+  /* Green accent */
+  --color-primary: #4ade80;
+  --color-primary-light: #86efac;
+  --color-primary-dark: #22c55e;
+
+  /* Borders */
+  --color-border: rgba(255, 255, 255, 0.12);
+  --color-border-alt: rgba(255, 255, 255, 0.18);
+}
+
+/* ──────────────────── Body Background Effects ──────────────────── */
+body {
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  background: radial-gradient(
+      ellipse 80% 50% at 50% -20%,
+      rgba(74, 222, 128, 0.06),
+      transparent
+    ),
+    radial-gradient(
+      ellipse 60% 40% at 50% 0%,
+      rgba(255, 255, 255, 0.03),
+      transparent
+    );
+  pointer-events: none;
+}
+
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  opacity: 0.03;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='1'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  pointer-events: none;
+}
+
+/* ──────────────────── Nav Link ──────────────────── */
+.nav-link {
+  position: relative;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--color-fg-light);
+  transition: color 0.2s, background-color 0.2s, transform 0.2s;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0.75rem;
+  right: 0.75rem;
+  height: 2px;
+  background: var(--color-primary);
+  border-radius: 1px;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.25s ease;
+}
+
+.nav-link:hover {
+  color: var(--color-fg-bold);
+  background-color: rgba(255, 255, 255, 0.06);
+  transform: scale(1.02);
+}
+
+.nav-link:hover::after {
+  transform: scaleX(1);
+}
+
+.nav-link-active {
+  color: var(--color-primary);
+  background-color: rgba(74, 222, 128, 0.08);
+}
+
+.nav-link-active::after {
+  transform: scaleX(1);
+}
+
+/* ──────────────────── Animated Link (gradient underline) ──────────────────── */
+.link-animated {
+  color: var(--color-primary);
+  background-image: linear-gradient(var(--color-primary), var(--color-primary));
+  background-size: 0% 1px;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  transition: background-size 0.3s ease, color 0.2s;
+  text-decoration: none;
+}
+
+.link-animated:hover {
+  background-size: 100% 1px;
+  color: var(--color-primary-light);
+}
+
+/* ──────────────────── Buttons ──────────────────── */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.625rem 1.5rem;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #0a0a0a;
+  background-color: var(--color-primary);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(74, 222, 128, 0.3);
+}
+
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.625rem 1.5rem;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--color-fg);
+  background-color: transparent;
+  border: 1px solid var(--color-border-alt);
+  transition: transform 0.2s, border-color 0.2s, color 0.2s;
+}
+
+.btn-secondary:hover {
+  transform: translateY(-2px);
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+/* ──────────────────── Card ──────────────────── */
+.card {
+  background-color: var(--color-bg-alt);
+  border: 1px solid var(--color-border);
+  transition: border-color 0.4s, transform 0.2s;
+}
+
+.card:hover {
+  border-color: var(--color-primary);
+}
+
+/* ──────────────────── Badge ──────────────────── */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--color-fg-light);
+  background-color: var(--color-bg-offset);
+  border: 1px solid var(--color-border);
+  transition: border-color 0.2s, background-color 0.2s, transform 0.2s;
+}
+
+.badge:hover {
+  border-color: var(--color-primary);
+  background-color: rgba(74, 222, 128, 0.08);
+  transform: translateY(-2px);
+}
+
+/* ──────────────────── Social Icon ──────────────────── */
+.social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 9999px;
+  border: 1px solid var(--color-border-alt);
+  color: var(--color-fg-light);
+  transition: color 0.2s, border-color 0.2s, transform 0.2s;
+}
+
+.social-icon:hover {
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+  transform: scale(1.1);
+}
+
+.social-icon svg {
+  width: 16px;
+  height: 16px;
+}
+
+/* ──────────────────── Prose Overrides ──────────────────── */
+.prose {
+  --tw-prose-body: var(--color-fg);
+  --tw-prose-headings: var(--color-fg-bold);
+  --tw-prose-lead: var(--color-fg-light);
+  --tw-prose-links: var(--color-primary);
+  --tw-prose-bold: var(--color-fg-bold);
+  --tw-prose-counters: var(--color-fg-light);
+  --tw-prose-bullets: var(--color-fg-light);
+  --tw-prose-hr: var(--color-border);
+  --tw-prose-quotes: var(--color-fg);
+  --tw-prose-quote-borders: var(--color-primary);
+  --tw-prose-captions: var(--color-fg-light);
+  --tw-prose-code: var(--color-primary-light);
+  --tw-prose-pre-code: var(--color-fg);
+  --tw-prose-pre-bg: var(--color-bg-alt);
+  --tw-prose-th-borders: var(--color-border-alt);
+  --tw-prose-td-borders: var(--color-border);
+}
+
+.prose a {
+  text-decoration: none;
+  background-image: linear-gradient(var(--color-primary), var(--color-primary));
+  background-size: 0% 1px;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  transition: background-size 0.3s ease;
+}
+
+.prose a:hover {
+  background-size: 100% 1px;
+}
+
+.prose code:not(pre code) {
+  padding: 0.125rem 0.375rem;
+  border-radius: 0.25rem;
+  background-color: var(--color-bg-offset);
+  border: 1px solid var(--color-border);
+  font-size: 0.875em;
+}
+
+.prose pre {
+  border: 1px solid var(--color-border);
+  border-radius: 0.5rem;
+}
