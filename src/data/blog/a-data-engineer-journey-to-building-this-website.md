@@ -23,7 +23,7 @@ I have been exploring agentic programming a lot lately (yes, that's the cool way
 
 That went pretty well. However, the website was as horrible as it can be. Unfortunately I didn't even bother to take a picture of it. But it looked pretty much like a Sphinx doc website:
 
-![Sphinx doc website](/images/sphinx.jpeg)
+![Sphinx doc website](/images/building-this-website/sphinx.jpeg)
 
 4. I decided to look for inspiration in other websites.
 5. I found [Michael's website](https://mldangelo.com), which I found minimalistic and cool.

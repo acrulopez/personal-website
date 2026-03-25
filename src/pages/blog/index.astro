@@ -7,7 +7,7 @@ const posts = (await getCollection("blog"))
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 ---
 
-<BaseLayout title="Blog — Alejandro de la Cruz" description="Articles about web development, software engineering, and more.">
+<BaseLayout title="Blog — Alejandro de la Cruz" description="Articles about web development, data engineering, and more.">
   <h1 class="mb-8 text-3xl font-bold" style={`color: var(--color-fg-bold);`}>Blog</h1>
 
   <ul class="space-y-4">

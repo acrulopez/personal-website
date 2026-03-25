@@ -1,0 +1,88 @@
+---
+interface Heading {
+  depth: number;
+  slug: string;
+  text: string;
+}
+
+interface Props {
+  headings: Heading[];
+}
+
+const { headings } = Astro.props;
+---
+
+<nav class="toc hidden xl:block" aria-label="Table of contents">
+  <p class="toc-title">On this page</p>
+  <ul class="toc-list">
+    {headings.map((h) => (
+      <li>
+        <a
+          href={`#${h.slug}`}
+          class:list={["toc-link", { "toc-link--nested": h.depth === 3 }]}
+          data-heading={h.slug}
+        >
+          {h.text}
+        </a>
+      </li>
+    ))}
+  </ul>
+</nav>
+
+<script>
+  function initToc() {
+    const links = document.querySelectorAll<HTMLAnchorElement>(".toc-link");
+    if (!links.length) return;
+
+    const slugs = Array.from(links).map((l) => l.dataset.heading!);
+    const headingEls = slugs
+      .map((s) => document.getElementById(s))
+      .filter(Boolean) as HTMLElement[];
+
+    if (!headingEls.length) return;
+
+    let activeSlug = slugs[0];
+
+    function setActive(slug: string) {
+      if (slug === activeSlug) return;
+      activeSlug = slug;
+      links.forEach((link) => {
+        link.classList.toggle("active", link.dataset.heading === slug);
+      });
+    }
+
+    // Activate the first link by default
+    setActive(slugs[0]);
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        // Find the topmost visible heading
+        const visible = entries
+          .filter((e) => e.isIntersecting)
+          .sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top);
+
+        if (visible.length > 0) {
+          setActive(visible[0].target.id);
+        }
+      },
+      { rootMargin: "0px 0px -70% 0px", threshold: 0 }
+    );
+
+    headingEls.forEach((el) => observer.observe(el));
+
+    // Smooth-scroll on click
+    links.forEach((link) => {
+      link.addEventListener("click", (e) => {
+        e.preventDefault();
+        const target = document.getElementById(link.dataset.heading!);
+        if (target) {
+          target.scrollIntoView({ behavior: "smooth", block: "start" });
+          history.replaceState(null, "", `#${link.dataset.heading}`);
+          setActive(link.dataset.heading!);
+        }
+      });
+    });
+  }
+
+  initToc();
+</script>
