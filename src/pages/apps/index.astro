@@ -1,0 +1,26 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import apps from "../../data/apps/apps.json";
+---
+
+<BaseLayout title="Apps — Alejandro de la Cruz" description="Pequeñas aplicaciones web que he construido.">
+  <h1 class="mb-8 text-3xl font-bold" style={`color: var(--color-fg-bold);`}>Apps</h1>
+
+  <div class="grid gap-6 sm:grid-cols-2">
+    {apps.map((app) => (
+      <a
+        href={app.url}
+        class="card rounded-lg p-6 hover:-translate-y-1 block no-underline"
+        style="text-decoration: none;"
+      >
+        <h2 class="text-lg font-semibold" style={`color: var(--color-fg-bold);`}>{app.title}</h2>
+        <p class="mt-2 text-sm" style={`color: var(--color-fg-light);`}>{app.description}</p>
+        <div class="mt-4 flex flex-wrap gap-2">
+          {app.tags.map((tag) => (
+            <span class="badge">{tag}</span>
+          ))}
+        </div>
+      </a>
+    ))}
+  </div>
+</BaseLayout>

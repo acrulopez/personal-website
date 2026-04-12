@@ -1,0 +1,9 @@
+[
+  {
+    "id": "tabla-raciones-hidratos-de-carbono",
+    "title": "Tabla de Raciones de Hidratos de Carbono",
+    "description": "Referencia de hidratos de carbono por ración para diabéticos, basada en la tabla de la Fundación para la Diabetes.",
+    "url": "/apps/tabla-raciones-hidratos-de-carbono",
+    "tags": ["salud", "diabetes", "nutrición"]
+  }
+]

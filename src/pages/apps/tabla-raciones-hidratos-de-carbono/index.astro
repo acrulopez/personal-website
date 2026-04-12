@@ -1,0 +1,323 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import foods from "../../../data/apps/tabla-raciones/foods.json";
+
+const categories = [...new Set(foods.map((f) => f.categoria))];
+
+function igBg(ig: number | null): string {
+  if (ig === null) return "";
+  if (ig <= 55) return "ig-low";
+  if (ig <= 69) return "ig-mid";
+  return "ig-high";
+}
+---
+
+<BaseLayout
+  title="Tabla de Raciones de Hidratos de Carbono"
+  description="Referencia de hidratos de carbono por ración para diabéticos, basada en la tabla de la Fundación para la Diabetes."
+>
+  <!-- Header -->
+  <div class="mb-8">
+    <a href="/apps/" class="text-sm link-animated" style="color: var(--color-fg-light);">← Apps</a>
+    <h1 class="mt-4 text-3xl font-bold" style="color: var(--color-fg-bold);">
+      Tabla de Raciones de Hidratos de Carbono
+    </h1>
+    <p class="mt-2 text-sm" style="color: var(--color-fg-light);">
+      Fuente: <a href="https://www.fundaciondiabetes.org" target="_blank" rel="noopener noreferrer" class="link-animated">Fundación para la Diabetes</a>.
+      <strong style="color: var(--color-fg);">10 g de HC = 1 ración.</strong>
+    </p>
+  </div>
+
+  <!-- Legend + Search -->
+  <div class="mb-8 flex flex-col gap-4">
+    <div class="legend-bar">
+      <span class="legend-label">Índice glucémico:</span>
+      <span class="legend-item"><span class="ig-dot" style="background:#22c55e;"></span> Bajo (&le;55)</span>
+      <span class="legend-item"><span class="ig-dot" style="background:#facc15;"></span> Medio (56–69)</span>
+      <span class="legend-item"><span class="ig-dot" style="background:#ef4444;"></span> Alto (&ge;70)</span>
+      <span class="legend-item"><span class="ig-dot" style="background:var(--color-bg-offset);border:1px solid var(--color-border);"></span> Desconocido</span>
+    </div>
+    <input
+      id="search"
+      type="search"
+      placeholder="Buscar alimento..."
+      autocomplete="off"
+      class="search-input"
+    />
+  </div>
+
+  <!-- No results -->
+  <p id="no-results" class="hidden mb-4 text-sm" style="color: var(--color-fg-light);">
+    No se encontraron alimentos.
+  </p>
+
+  <!-- Table per category -->
+  {categories.map((cat) => {
+    const catFoods = foods.filter((f) => f.categoria === cat);
+    return (
+      <section class="cat-section" style="margin-bottom: 2.5rem;" data-category={cat}>
+        <h2 class="mb-4 text-base font-semibold uppercase tracking-wider" style="color: var(--color-primary); border-bottom: 1px solid var(--color-border); padding-bottom: 0.5rem;">
+          {cat}
+        </h2>
+        <div class="table-wrap">
+          <table class="food-table">
+            <colgroup>
+              <col class="col-name" />
+              <col class="col-g" />
+              <col class="col-medida" />
+              <col class="col-rac" />
+              <col class="col-ig" />
+            </colgroup>
+            <thead>
+              <tr>
+                <th>Alimento</th>
+                <th>g/rac</th>
+                <th>Medida habitual</th>
+                <th>Rac.</th>
+                <th>IG</th>
+              </tr>
+            </thead>
+            <tbody>
+              {catFoods.map((food) => {
+                const rows = food.medidas.length > 0 ? food.medidas : [null];
+                const span = rows.length;
+                return rows.map((medida, i) => (
+                  <tr class="food-row" data-name={food.nombre.toLowerCase()} data-category={food.categoria}>
+                    {i === 0 && (
+                      <td rowspan={span} class="td-name">{food.nombre}</td>
+                    )}
+                    {i === 0 && (
+                      <td rowspan={span} class="td-g">
+                        {food.gramosPorRacion !== null ? food.gramosPorRacion : "—"}
+                      </td>
+                    )}
+                    <td class="td-medida">
+                      {medida ? medida.descripcion : "—"}
+                    </td>
+                    <td class="td-rac">
+                      {medida ? medida.raciones : "—"}
+                    </td>
+                    {i === 0 && (
+                      <td rowspan={span} class={`td-ig ${igBg(food.ig)}`}>
+                        {food.ig !== null ? food.ig : ""}
+                      </td>
+                    )}
+                  </tr>
+                ));
+              })}
+            </tbody>
+          </table>
+        </div>
+      </section>
+    );
+  })}
+</BaseLayout>
+
+<style>
+  /* ── Legend bar ── */
+  .legend-bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.375rem 1.25rem;
+    font-size: 0.75rem;
+    color: var(--color-fg-light);
+  }
+
+  .legend-label {
+    font-weight: 600;
+    color: var(--color-fg);
+    margin-right: 0.25rem;
+  }
+
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+
+  .ig-dot {
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+
+  /* ── Search ── */
+  .search-input {
+    width: 100%;
+    max-width: 28rem;
+    padding: 0.625rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 0.875rem;
+    outline: none;
+    background: var(--color-bg-alt);
+    border: 1px solid var(--color-border);
+    color: var(--color-fg);
+    transition: border-color 0.2s;
+  }
+
+  .search-input:focus {
+    border-color: var(--color-primary);
+  }
+
+  /* ── Table wrap: border + radius + scroll in ONE element ── */
+  /* Never nest overflow:hidden and overflow:auto — they fight each other */
+  .table-wrap {
+    border-radius: 0.5rem;
+    border: 1px solid var(--color-border);
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* ── Table base ── */
+  .food-table {
+    border-collapse: collapse;
+    font-size: 0.8125rem;
+    width: 100%;
+    table-layout: fixed;
+    min-width: 400px;
+  }
+
+  /* ── Fixed column widths ── */
+  .col-name   { width: 30%; }
+  .col-g      { width: 13%; }
+  .col-medida { width: 34%; }
+  .col-rac    { width: 12%; }
+  .col-ig     { width: 11%; }
+
+  /* ── Header ── */
+  .food-table thead tr {
+    background: var(--color-bg-offset);
+  }
+
+  .food-table th {
+    padding: 0.6rem 0.625rem;
+    text-align: center;
+    font-size: 0.6375rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    white-space: nowrap;
+    color: var(--color-fg-light);
+    border-bottom: 1px solid var(--color-border-alt);
+    border-right: 1px solid var(--color-border);
+  }
+
+  .food-table th:first-child { text-align: left; }
+  .food-table th:last-child  { border-right: none; }
+
+  /* Reduce padding on numeric column headers */
+  .food-table th:nth-child(2),
+  .food-table th:nth-child(4),
+  .food-table th:nth-child(5) {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+
+  /* ── Cells ── */
+  .food-table td {
+    padding: 0.5rem 0.625rem;
+    border-bottom: 1px solid var(--color-border);
+    border-right: 1px solid var(--color-border);
+    vertical-align: middle;
+    color: var(--color-fg);
+    line-height: 1.45;
+    word-break: break-word;
+  }
+
+  .food-table td:last-child { border-right: none; }
+  .food-table tbody tr:last-child td { border-bottom: none; }
+
+  /* Alternating row tint */
+  .food-table tbody tr:nth-child(odd)  td:not(.td-ig) { background: var(--color-bg-alt); }
+  .food-table tbody tr:nth-child(even) td:not(.td-ig) { background: var(--color-bg); }
+
+  /* Hover */
+  .food-table tbody tr:hover td:not(.td-ig) {
+    background: rgba(74, 222, 128, 0.05) !important;
+  }
+
+  /* ── Column-specific styles ── */
+  .td-name {
+    font-weight: 500;
+    color: var(--color-fg-bold) !important;
+  }
+
+  .td-g {
+    text-align: center;
+    font-variant-numeric: tabular-nums;
+    color: var(--color-fg-light) !important;
+    white-space: nowrap;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+
+  .td-medida {
+    color: var(--color-fg-light) !important;
+    font-size: 0.775rem;
+  }
+
+  .td-rac {
+    text-align: center;
+    font-variant-numeric: tabular-nums;
+    font-weight: 600;
+    white-space: nowrap;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+
+  .td-ig {
+    text-align: center;
+    font-weight: 700;
+    white-space: nowrap;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+
+  /* ── IG colour bands ── */
+  .ig-low  { background: #166534 !important; color: #bbf7d0 !important; }
+  .ig-mid  { background: #713f12 !important; color: #fef9c3 !important; }
+  .ig-high { background: #7f1d1d !important; color: #fecaca !important; }
+</style>
+
+<script>
+  const searchInput = document.getElementById("search") as HTMLInputElement;
+  const noResults = document.getElementById("no-results") as HTMLElement;
+  const sections = document.querySelectorAll<HTMLElement>(".cat-section");
+
+  function normalize(s: string) {
+    return s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+  }
+
+  function filter() {
+    const q = normalize(searchInput.value.trim());
+    let totalVisible = 0;
+
+    sections.forEach((section) => {
+      const rows = section.querySelectorAll<HTMLElement>("tr.food-row");
+      const seen = new Map<string, HTMLElement[]>();
+
+      rows.forEach((row) => {
+        const name = row.dataset.name!;
+        if (!seen.has(name)) seen.set(name, []);
+        seen.get(name)!.push(row);
+      });
+
+      let sectionVisible = 0;
+      seen.forEach((foodRows, name) => {
+        const show = q === "" || normalize(name).includes(q);
+        foodRows.forEach((r) => (r.style.display = show ? "" : "none"));
+        if (show) sectionVisible++;
+      });
+
+      section.style.display = sectionVisible > 0 ? "" : "none";
+      totalVisible += sectionVisible;
+    });
+
+    noResults.classList.toggle("hidden", totalVisible > 0);
+  }
+
+  searchInput.addEventListener("input", filter);
+</script>

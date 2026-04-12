@@ -1,0 +1,3406 @@
+[
+  {
+    "id": "cuajada",
+    "nombre": "Cuajada",
+    "categoria": "Lácteos",
+    "gramosPorRacion": 175,
+    "medidas": [
+      {
+        "descripcion": "Unidad (125ml)",
+        "raciones": 0.6
+      }
+    ],
+    "ig": 35
+  },
+  {
+    "id": "flan",
+    "nombre": "Flan",
+    "categoria": "Lácteos",
+    "gramosPorRacion": 45,
+    "medidas": [
+      {
+        "descripcion": "Unidad (110g)",
+        "raciones": 2.5
+      }
+    ],
+    "ig": null
+  },
+  {
+    "id": "flan-0",
+    "nombre": "Flan 0%",
+    "categoria": "Lácteos",
+    "gramosPorRacion": 70,
+    "medidas": [
+      {
+        "descripcion": "Unidad (110g)",
+        "raciones": 1.6
+      }
+    ],
+    "ig": null
+  },
+  {
+    "id": "helado-de-crema",
+    "nombre": "Helado de crema",
+    "categoria": "Lácteos",
+    "gramosPorRacion": 50,
+    "medidas": [
+      {
+        "descripcion": "Bola mediana (100g)",
+        "raciones": 2
+      },
+      {
+        "descripcion": "Tarrina (150ml)",
+        "raciones": 3
+      }
+    ],
+    "ig": 60
+  },
+  {
+    "id": "helado-de-hielo",
+    "nombre": "Helado de hielo",
+    "categoria": "Lácteos",
+    "gramosPorRacion": 50,
+    "medidas": [
+      {
+        "descripcion": "Unidad (100ml)",
+        "raciones": 2
+      }
+    ],
+    "ig": 65
+  },
+  {
+    "id": "helado-sin-azucar",
+    "nombre": "Helado sin azúcar añadida",
+    "categoria": "Lácteos",
+    "gramosPorRacion": 100,
+    "medidas": [
+      {
+        "descripcion": "Unidad (100ml)",
+        "raciones": 1
+      }
+    ],
+    "ig": 35
+  },
+  {
+    "id": "kefir",
+    "nombre": "Kéfir",
+    "categoria": "Lácteos",
+    "gramosPorRacion": 200,
+    "medidas": [
+      {
+        "descripcion": "Unidad (125ml)",
+        "raciones": 0.5
+      }
+    ],
+    "ig": 35
+  },
+  {
+    "id": "leche-desnatada",
+    "nombre": "Leche desnatada",
+    "categoria": "Lácteos",
+    "gramosPorRacion": 200,
+    "medidas": [
+      {
+        "descripcion": "Vaso o taza (200ml)",
+        "raciones": 1
+      }
+    ],
+    "ig": 30
+  },
+  {
+    "id": "leche-semidesnatada",
+    "nombre": "Leche semidesnatada",
+    "categoria": "Lácteos",
+    "gramosPorRacion": 200,
+    "medidas": [
+      {
+        "descripcion": "Vaso o taza (200ml)",
+        "raciones": 1
+      }
+    ],
+    "ig": 30
+  },
+  {
+    "id": "leche-entera",
+    "nombre": "Leche entera",
+    "categoria": "Lácteos",
+    "gramosPorRacion": 200,
+    "medidas": [
+      {
+        "descripcion": "Vaso o taza (200ml)",
+        "raciones": 1
+      }
+    ],
+    "ig": 30
+  },
+  {
+    "id": "leche-sin-lactosa",
+    "nombre": "Leche sin lactosa",
+    "categoria": "Lácteos",
+    "gramosPorRacion": 200,
+    "medidas": [
+      {
+        "descripcion": "Vaso o taza (200ml)",
+        "raciones": 1
+      }
+    ],
+    "ig": 30
+  },
+  {
+    "id": "leche-condensada",
+    "nombre": "Leche condensada",
+    "categoria": "Lácteos",
+    "gramosPorRacion": 20,
+    "medidas": [
+      {
+        "descripcion": "Cucharada (20g)",
+        "raciones": 1
+      }
+    ],
+    "ig": null
+  },
+  {
+    "id": "leche-en-polvo",
+    "nombre": "Leche en polvo",
+    "categoria": "Lácteos",
+    "gramosPorRacion": 25,
+    "medidas": [
+      {
+        "descripcion": "Cucharada sopera colmada (25g)",
+        "raciones": 1
+      }
+    ],
+    "ig": 30
+  },
+  {
+    "id": "nata-liquida",
+    "nombre": "Nata líquida",
+    "categoria": "Lácteos",
+    "gramosPorRacion": 300,
+    "medidas": [
+      {
+        "descripcion": "Bote o brick (200ml)",
+        "raciones": 0.7
+      }
+    ],
+    "ig": 0
+  },
+  {
+    "id": "natillas",
+    "nombre": "Natillas",
+    "categoria": "Lácteos",
+    "gramosPorRacion": 50,
+    "medidas": [
+      {
+        "descripcion": "Unidad (125ml)",
+        "raciones": 2.5
+      }
+    ],
+    "ig": null
+  },
+  {
+    "id": "petit-suisse",
+    "nombre": "Queso Petit suisse",
+    "categoria": "Lácteos",
+    "gramosPorRacion": 75,
+    "medidas": [
+      {
+        "descripcion": "Unidad (50g)",
+        "raciones": 0.6
+      }
+    ],
+    "ig": 40
+  },
+  {
+    "id": "queso-fresco",
+    "nombre": "Queso fresco",
+    "categoria": "Lácteos",
+    "gramosPorRacion": 250,
+    "medidas": [
+      {
+        "descripcion": "Tarrina (70g)",
+        "raciones": 0.3
+      }
+    ],
+    "ig": 35
+  },
+  {
+    "id": "quesos-curados",
+    "nombre": "Quesos de pasta, semi o curados",
+    "categoria": "Lácteos",
+    "gramosPorRacion": null,
+    "medidas": [],
+    "ig": 0
+  },
+  {
+    "id": "yogur-natural",
+    "nombre": "Yogur natural entero o desnatado",
+    "categoria": "Lácteos",
+    "gramosPorRacion": 200,
+    "medidas": [
+      {
+        "descripcion": "Unidad (125ml)",
+        "raciones": 0.5
+      }
+    ],
+    "ig": 35
+  },
+  {
+    "id": "yogur-desnatado-sabores",
+    "nombre": "Yogur desnatado, sabores o fruta",
+    "categoria": "Lácteos",
+    "gramosPorRacion": 150,
+    "medidas": [
+      {
+        "descripcion": "Unidad (125ml)",
+        "raciones": 0.8
+      }
+    ],
+    "ig": 35
+  },
+  {
+    "id": "yogur-entero-sabores",
+    "nombre": "Yogur entero, sabores o fruta",
+    "categoria": "Lácteos",
+    "gramosPorRacion": 70,
+    "medidas": [
+      {
+        "descripcion": "Unidad (125ml)",
+        "raciones": 1.5
+      }
+    ],
+    "ig": 35
+  },
+  {
+    "id": "yogur-liquido",
+    "nombre": "Yogur líquido",
+    "categoria": "Lácteos",
+    "gramosPorRacion": 70,
+    "medidas": [
+      {
+        "descripcion": "Unidad (200ml)",
+        "raciones": 3
+      }
+    ],
+    "ig": 40
+  },
+  {
+    "id": "yogur-actimel",
+    "nombre": "Yogur tipo Actimel",
+    "categoria": "Lácteos",
+    "gramosPorRacion": 100,
+    "medidas": [
+      {
+        "descripcion": "Unidad (100ml)",
+        "raciones": 1
+      }
+    ],
+    "ig": 35
+  },
+  {
+    "id": "yogur-actimel-0",
+    "nombre": "Yogur tipo Actimel 0%",
+    "categoria": "Lácteos",
+    "gramosPorRacion": 200,
+    "medidas": [
+      {
+        "descripcion": "Unidad (94ml)",
+        "raciones": 0.5
+      }
+    ],
+    "ig": 35
+  },
+  {
+    "id": "arroz-crudo",
+    "nombre": "Arroz, crudo",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 13,
+    "medidas": [],
+    "ig": 70
+  },
+  {
+    "id": "arroz-cocido",
+    "nombre": "Arroz, cocido",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 38,
+    "medidas": [
+      {
+        "descripcion": "Plato grande (230g)",
+        "raciones": 6
+      },
+      {
+        "descripcion": "Plato mediano (150g)",
+        "raciones": 4
+      },
+      {
+        "descripcion": "Guarnición (75g)",
+        "raciones": 2
+      }
+    ],
+    "ig": 70
+  },
+  {
+    "id": "arroz-integral-crudo",
+    "nombre": "Arroz integral, crudo",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 13,
+    "medidas": [
+      {
+        "descripcion": "Plato grande (240g)",
+        "raciones": 6
+      },
+      {
+        "descripcion": "Plato mediano (160g)",
+        "raciones": 4
+      },
+      {
+        "descripcion": "Guarnición (80g)",
+        "raciones": 2
+      }
+    ],
+    "ig": 50
+  },
+  {
+    "id": "arroz-hinchado-desayuno",
+    "nombre": "Arroz hinchado para desayuno",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 12,
+    "medidas": [],
+    "ig": 85
+  },
+  {
+    "id": "arroz-salvaje-crudo",
+    "nombre": "Arroz salvaje, crudo",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 13,
+    "medidas": [],
+    "ig": 35
+  },
+  {
+    "id": "arroz-salvaje-cocido",
+    "nombre": "Arroz salvaje, cocido",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 34,
+    "medidas": [],
+    "ig": 35
+  },
+  {
+    "id": "avena-cruda",
+    "nombre": "Avena, crudo",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 17,
+    "medidas": [],
+    "ig": null
+  },
+  {
+    "id": "avena-cocida",
+    "nombre": "Avena, cocido",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 34,
+    "medidas": [],
+    "ig": 40
+  },
+  {
+    "id": "avena-copos",
+    "nombre": "Avena copos",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 15,
+    "medidas": [],
+    "ig": 40
+  },
+  {
+    "id": "boniato",
+    "nombre": "Boniato",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 50,
+    "medidas": [
+      {
+        "descripcion": "Pequeño (80g)",
+        "raciones": 1.6
+      },
+      {
+        "descripcion": "Mediano (160g)",
+        "raciones": 3.2
+      },
+      {
+        "descripcion": "Grande (320g)",
+        "raciones": 6.4
+      }
+    ],
+    "ig": 50
+  },
+  {
+    "id": "cebada-cruda",
+    "nombre": "Cebada, crudo",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 14,
+    "medidas": [],
+    "ig": null
+  },
+  {
+    "id": "cebada-cocida",
+    "nombre": "Cebada, cocido",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 40,
+    "medidas": [],
+    "ig": 45
+  },
+  {
+    "id": "centeno-crudo",
+    "nombre": "Centeno, crudo",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 15,
+    "medidas": [],
+    "ig": null
+  },
+  {
+    "id": "centeno-cocido",
+    "nombre": "Centeno, cocido",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 38,
+    "medidas": [],
+    "ig": 45
+  },
+  {
+    "id": "cereales-desayuno",
+    "nombre": "Cereales desayuno",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 15,
+    "medidas": [],
+    "ig": 77
+  },
+  {
+    "id": "cereales-fibra-all-bran",
+    "nombre": "Cereales desayuno ricos en fibra (tipo All-Bran)",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 20,
+    "medidas": [],
+    "ig": 80
+  },
+  {
+    "id": "cuscus-crudo",
+    "nombre": "Cuscús, crudo",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 15,
+    "medidas": [],
+    "ig": null
+  },
+  {
+    "id": "cuscus-cocido",
+    "nombre": "Cuscús, cocido",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 65,
+    "medidas": [],
+    "ig": 65
+  },
+  {
+    "id": "fideos-de-arroz",
+    "nombre": "Fideos de arroz / tipo Udon, cocido",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 40,
+    "medidas": [],
+    "ig": 50
+  },
+  {
+    "id": "fideos-soja-cocido",
+    "nombre": "Fideos de soja, cocido",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 40,
+    "medidas": [],
+    "ig": null
+  },
+  {
+    "id": "harina-soja",
+    "nombre": "Harina de soja",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 70,
+    "medidas": [
+      {
+        "descripcion": "Cucharada sopera rasa (14g)",
+        "raciones": 0.2
+      }
+    ],
+    "ig": 25
+  },
+  {
+    "id": "galleta-digestiva",
+    "nombre": "Galleta tipo Digestiva",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 16,
+    "medidas": [
+      {
+        "descripcion": "Unidad (11g)",
+        "raciones": 0.7
+      }
+    ],
+    "ig": 65
+  },
+  {
+    "id": "galleta-maria",
+    "nombre": "Galleta tipo María",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 15,
+    "medidas": [
+      {
+        "descripcion": "Unidad (7g)",
+        "raciones": 0.4
+      }
+    ],
+    "ig": 70
+  },
+  {
+    "id": "galleta-principe",
+    "nombre": "Galleta tipo Príncipe",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 14,
+    "medidas": [
+      {
+        "descripcion": "Unidad (15g)",
+        "raciones": 1
+      }
+    ],
+    "ig": 70
+  },
+  {
+    "id": "galleta-sin-azucar",
+    "nombre": "Galleta Sin Azúcar",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 18,
+    "medidas": [
+      {
+        "descripcion": "Unidad (7g)",
+        "raciones": 0.3
+      }
+    ],
+    "ig": 50
+  },
+  {
+    "id": "garbanzo-crudo",
+    "nombre": "Garbanzo, crudo",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 20,
+    "medidas": [
+      {
+        "descripcion": "Plato grande (300g)",
+        "raciones": 6
+      },
+      {
+        "descripcion": "Plato mediano (200g)",
+        "raciones": 4
+      },
+      {
+        "descripcion": "Guarnición (100g)",
+        "raciones": 2
+      }
+    ],
+    "ig": 35
+  },
+  {
+    "id": "garbanzo-cocido",
+    "nombre": "Garbanzo, cocido",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 50,
+    "medidas": [
+      {
+        "descripcion": "Plato grande (300g)",
+        "raciones": 6
+      },
+      {
+        "descripcion": "Plato mediano (200g)",
+        "raciones": 4
+      },
+      {
+        "descripcion": "Guarnición (100g)",
+        "raciones": 2
+      }
+    ],
+    "ig": 35
+  },
+  {
+    "id": "guisantes",
+    "nombre": "Guisantes congelados, frescos, de lata",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 100,
+    "medidas": [
+      {
+        "descripcion": "Plato grande (600g)",
+        "raciones": 6
+      },
+      {
+        "descripcion": "Plato mediano (400g)",
+        "raciones": 4
+      },
+      {
+        "descripcion": "Guarnición (200g)",
+        "raciones": 2
+      }
+    ],
+    "ig": 35
+  },
+  {
+    "id": "harina-trigo-maiz",
+    "nombre": "Harina de trigo o maíz",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 15,
+    "medidas": [
+      {
+        "descripcion": "Cucharada sopera rasa (14g)",
+        "raciones": 0.8
+      }
+    ],
+    "ig": 70
+  },
+  {
+    "id": "harina-centeno",
+    "nombre": "Harina de centeno",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 17,
+    "medidas": [
+      {
+        "descripcion": "Cucharada sopera rasa (14g)",
+        "raciones": 0.8
+      }
+    ],
+    "ig": 45
+  },
+  {
+    "id": "hojaldre-crudo",
+    "nombre": "Hojaldre crudo",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 30,
+    "medidas": [],
+    "ig": null
+  },
+  {
+    "id": "hojaldre-horneado",
+    "nombre": "Hojaldre horneado",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 24,
+    "medidas": [],
+    "ig": null
+  },
+  {
+    "id": "judias-blancas-crudo",
+    "nombre": "Judías blancas, crudo",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 20,
+    "medidas": [
+      {
+        "descripcion": "Plato grande (300g)",
+        "raciones": 6
+      },
+      {
+        "descripcion": "Plato mediano (200g)",
+        "raciones": 4
+      },
+      {
+        "descripcion": "Guarnición (100g)",
+        "raciones": 2
+      }
+    ],
+    "ig": null
+  },
+  {
+    "id": "judias-blancas-cocido",
+    "nombre": "Judías blancas, cocido",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 50,
+    "medidas": [
+      {
+        "descripcion": "Plato grande (300g)",
+        "raciones": 6
+      },
+      {
+        "descripcion": "Plato mediano (200g)",
+        "raciones": 4
+      },
+      {
+        "descripcion": "Guarnición (100g)",
+        "raciones": 2
+      }
+    ],
+    "ig": 35
+  },
+  {
+    "id": "lentejas-crudo",
+    "nombre": "Lentejas, crudo",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 20,
+    "medidas": [
+      {
+        "descripcion": "Plato grande (300g)",
+        "raciones": 6
+      },
+      {
+        "descripcion": "Plato mediano (200g)",
+        "raciones": 4
+      },
+      {
+        "descripcion": "Guarnición (100g)",
+        "raciones": 2
+      }
+    ],
+    "ig": 35
+  },
+  {
+    "id": "lentejas-cocido",
+    "nombre": "Lentejas, cocido",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 50,
+    "medidas": [
+      {
+        "descripcion": "Plato grande (300g)",
+        "raciones": 6
+      },
+      {
+        "descripcion": "Plato mediano (200g)",
+        "raciones": 4
+      },
+      {
+        "descripcion": "Guarnición (100g)",
+        "raciones": 2
+      }
+    ],
+    "ig": 35
+  },
+  {
+    "id": "maiz-en-lata",
+    "nombre": "Maíz en lata",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 50,
+    "medidas": [
+      {
+        "descripcion": "Lata (150g)",
+        "raciones": 3
+      }
+    ],
+    "ig": 65
+  },
+  {
+    "id": "maiz-en-lata-sin-azucar",
+    "nombre": "Maíz en lata sin azúcar añadido",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 90,
+    "medidas": [
+      {
+        "descripcion": "Lata pequeña (150g)",
+        "raciones": 1.5
+      }
+    ],
+    "ig": null
+  },
+  {
+    "id": "maiz-tostado",
+    "nombre": "Maíz tostado (quicos)",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 20,
+    "medidas": [
+      {
+        "descripcion": "Bolsa pequeña (40g)",
+        "raciones": 2
+      }
+    ],
+    "ig": null
+  },
+  {
+    "id": "mijo-crudo",
+    "nombre": "Mijo, crudo",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 15,
+    "medidas": [],
+    "ig": null
+  },
+  {
+    "id": "mijo-cocido",
+    "nombre": "Mijo, cocido",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 53,
+    "medidas": [],
+    "ig": 70
+  },
+  {
+    "id": "muesli",
+    "nombre": "Muesli",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 15,
+    "medidas": [],
+    "ig": 65
+  },
+  {
+    "id": "pan-blanco-o-integral",
+    "nombre": "Pan blanco o integral",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 20,
+    "medidas": [
+      {
+        "descripcion": "Barra 1/4 (aprox. 3 cm, 20g)",
+        "raciones": 1
+      },
+      {
+        "descripcion": "Barra 1/4 entera (160g)",
+        "raciones": 9
+      },
+      {
+        "descripcion": "Panecillo restaurante (80g)",
+        "raciones": 3
+      }
+    ],
+    "ig": 70
+  },
+  {
+    "id": "pan-centeno",
+    "nombre": "Pan de centeno",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 20,
+    "medidas": [
+      {
+        "descripcion": "Rebanada (25g)",
+        "raciones": 1.2
+      }
+    ],
+    "ig": 65
+  },
+  {
+    "id": "pan-de-molde",
+    "nombre": "Pan de molde",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 20,
+    "medidas": [
+      {
+        "descripcion": "Rebanada (25g)",
+        "raciones": 1.2
+      }
+    ],
+    "ig": 85
+  },
+  {
+    "id": "pan-hamburguesa",
+    "nombre": "Pan de hamburguesa o Frankfurt",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 18,
+    "medidas": [
+      {
+        "descripcion": "Unidad (80g)",
+        "raciones": 4.5
+      },
+      {
+        "descripcion": "Unidad pequeña (55g)",
+        "raciones": 3
+      }
+    ],
+    "ig": 85
+  },
+  {
+    "id": "pan-trigo-integral",
+    "nombre": "Pan de trigo integral",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 23,
+    "medidas": [
+      {
+        "descripcion": "Barra de 1/4 (20g)",
+        "raciones": 1
+      }
+    ],
+    "ig": 40
+  },
+  {
+    "id": "pan-rallado",
+    "nombre": "Pan rallado",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 15,
+    "medidas": [
+      {
+        "descripcion": "Cucharada sopera colmada (23g)",
+        "raciones": 1.5
+      }
+    ],
+    "ig": 70
+  },
+  {
+    "id": "pan-tostado-biscote",
+    "nombre": "Pan tostado o biscote",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 15,
+    "medidas": [
+      {
+        "descripcion": "Una copa (10g)",
+        "raciones": 0.6
+      },
+      {
+        "descripcion": "Unidad mini (3.3g)",
+        "raciones": 0.25
+      },
+      {
+        "descripcion": "Krispoll (12.5g)",
+        "raciones": 0.8
+      },
+      {
+        "descripcion": "Unidad (15g)",
+        "raciones": 1
+      }
+    ],
+    "ig": 70
+  },
+  {
+    "id": "pan-bastoncitos",
+    "nombre": "Pan en bastoncitos",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 15,
+    "medidas": [
+      {
+        "descripcion": "3 unidades (15g)",
+        "raciones": 1
+      }
+    ],
+    "ig": 70
+  },
+  {
+    "id": "pasta-cruda",
+    "nombre": "Pasta alimenticia, crudo",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 15,
+    "medidas": [
+      {
+        "descripcion": "Plato grande (300g)",
+        "raciones": 6
+      },
+      {
+        "descripcion": "Plato mediano (200g)",
+        "raciones": 4
+      },
+      {
+        "descripcion": "Guarnición (100g)",
+        "raciones": 2
+      }
+    ],
+    "ig": 50
+  },
+  {
+    "id": "pasta-cocida",
+    "nombre": "Pasta alimenticia, cocido",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 50,
+    "medidas": [
+      {
+        "descripcion": "Plato grande (300g)",
+        "raciones": 6
+      },
+      {
+        "descripcion": "Plato mediano (200g)",
+        "raciones": 4
+      },
+      {
+        "descripcion": "Guarnición (100g)",
+        "raciones": 2
+      }
+    ],
+    "ig": 50
+  },
+  {
+    "id": "pasta-al-huevo-crudo",
+    "nombre": "Pasta al huevo, crudo",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 16,
+    "medidas": [],
+    "ig": null
+  },
+  {
+    "id": "patata-cocida-hervida",
+    "nombre": "Patata cocida, hervida",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 50,
+    "medidas": [
+      {
+        "descripcion": "Plato grande (300g)",
+        "raciones": 6
+      },
+      {
+        "descripcion": "Plato mediano (200g)",
+        "raciones": 4
+      },
+      {
+        "descripcion": "Guarnición (100g)",
+        "raciones": 2
+      }
+    ],
+    "ig": 65
+  },
+  {
+    "id": "patata-horno",
+    "nombre": "Patata, horno o asada",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 35,
+    "medidas": [
+      {
+        "descripcion": "Guarnición (60g)",
+        "raciones": 2
+      }
+    ],
+    "ig": null
+  },
+  {
+    "id": "patatas-fritas",
+    "nombre": "Patatas fritas",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 30,
+    "medidas": [
+      {
+        "descripcion": "Guarnición (60g)",
+        "raciones": 2
+      },
+      {
+        "descripcion": "Porción hamburguesería (120g)",
+        "raciones": 4
+      }
+    ],
+    "ig": 70
+  },
+  {
+    "id": "patatas-chips",
+    "nombre": "Patatas chips",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 20,
+    "medidas": [
+      {
+        "descripcion": "Bolsa pequeña (30g)",
+        "raciones": 1.5
+      }
+    ],
+    "ig": 95
+  },
+  {
+    "id": "pure-patatas-copos",
+    "nombre": "Puré de patatas, copos",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 15,
+    "medidas": [],
+    "ig": 90
+  },
+  {
+    "id": "pure-patatas-leche",
+    "nombre": "Puré de patatas elaborado con leche",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 80,
+    "medidas": [],
+    "ig": 90
+  },
+  {
+    "id": "quinoa-crudo",
+    "nombre": "Quinoa, crudo",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 15,
+    "medidas": [],
+    "ig": null
+  },
+  {
+    "id": "quinoa-cocido",
+    "nombre": "Quinoa, cocido",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 48,
+    "medidas": [],
+    "ig": 35
+  },
+  {
+    "id": "semola-trigo-crudo",
+    "nombre": "Sémola de trigo, crudo",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 14,
+    "medidas": [],
+    "ig": null
+  },
+  {
+    "id": "semola-trigo-cocido",
+    "nombre": "Sémola de trigo, cocido",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 90,
+    "medidas": [],
+    "ig": 67
+  },
+  {
+    "id": "soja-seca-crudo",
+    "nombre": "Soja seca, crudo",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 30,
+    "medidas": [],
+    "ig": null
+  },
+  {
+    "id": "soja-seca-hervida",
+    "nombre": "Soja seca, hervido",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 100,
+    "medidas": [
+      {
+        "descripcion": "Unidad (100ml)",
+        "raciones": 1
+      }
+    ],
+    "ig": 15
+  },
+  {
+    "id": "sushi",
+    "nombre": "Sushi",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 45,
+    "medidas": [
+      {
+        "descripcion": "Pieza pequeña (20g)",
+        "raciones": 0.5
+      },
+      {
+        "descripcion": "Pieza grande (45g)",
+        "raciones": 0.9
+      }
+    ],
+    "ig": 42
+  },
+  {
+    "id": "tapioca-crudo",
+    "nombre": "Tapioca, crudo",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 12,
+    "medidas": [],
+    "ig": null
+  },
+  {
+    "id": "tapioca-cocido",
+    "nombre": "Tapioca, cocido",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 33,
+    "medidas": [],
+    "ig": 84
+  },
+  {
+    "id": "trigo-sarraceno-crudo",
+    "nombre": "Trigo sarraceno, crudo",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 14,
+    "medidas": [],
+    "ig": null
+  },
+  {
+    "id": "trigo-sarraceno-cocido",
+    "nombre": "Trigo sarraceno, cocido",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 42,
+    "medidas": [],
+    "ig": 40
+  },
+  {
+    "id": "trigo-tierno-crudo",
+    "nombre": "Trigo tierno, crudo",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 16,
+    "medidas": [],
+    "ig": null
+  },
+  {
+    "id": "trigo-tierno-cocido",
+    "nombre": "Trigo tierno, cocido",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 39,
+    "medidas": [],
+    "ig": null
+  },
+  {
+    "id": "yuca-cocido",
+    "nombre": "Yuca, cocido",
+    "categoria": "Cereales y derivados",
+    "gramosPorRacion": 33,
+    "medidas": [],
+    "ig": 55
+  },
+  {
+    "id": "aguacate",
+    "nombre": "Aguacate",
+    "categoria": "Frutas",
+    "gramosPorRacion": null,
+    "medidas": [],
+    "ig": 10
+  },
+  {
+    "id": "albaricoque",
+    "nombre": "Albaricoque",
+    "categoria": "Frutas",
+    "gramosPorRacion": 150,
+    "medidas": [
+      {
+        "descripcion": "Unidad mediana (50g)",
+        "raciones": 0.3
+      }
+    ],
+    "ig": 30
+  },
+  {
+    "id": "arandano",
+    "nombre": "Arándano",
+    "categoria": "Frutas",
+    "gramosPorRacion": 100,
+    "medidas": [
+      {
+        "descripcion": "Puñado con mano cerrada (20g)",
+        "raciones": 0.25
+      }
+    ],
+    "ig": 25
+  },
+  {
+    "id": "castana-cruda",
+    "nombre": "Castaña cruda",
+    "categoria": "Frutas",
+    "gramosPorRacion": 30,
+    "medidas": [
+      {
+        "descripcion": "Unidad (15g)",
+        "raciones": 0.3
+      }
+    ],
+    "ig": 65
+  },
+  {
+    "id": "castana-tostada",
+    "nombre": "Castaña tostada",
+    "categoria": "Frutas",
+    "gramosPorRacion": 25,
+    "medidas": [
+      {
+        "descripcion": "Unidad (3g)",
+        "raciones": 0.3
+      }
+    ],
+    "ig": 65
+  },
+  {
+    "id": "cereza",
+    "nombre": "Cereza",
+    "categoria": "Frutas",
+    "gramosPorRacion": 100,
+    "medidas": [
+      {
+        "descripcion": "12 unidades (100g)",
+        "raciones": 1
+      }
+    ],
+    "ig": 25
+  },
+  {
+    "id": "chirimoya",
+    "nombre": "Chirimoya",
+    "categoria": "Frutas",
+    "gramosPorRacion": 50,
+    "medidas": [
+      {
+        "descripcion": "Unidad mediana (200g)",
+        "raciones": 4
+      }
+    ],
+    "ig": 35
+  },
+  {
+    "id": "ciruela",
+    "nombre": "Ciruela",
+    "categoria": "Frutas",
+    "gramosPorRacion": 100,
+    "medidas": [
+      {
+        "descripcion": "2 unidades (100g)",
+        "raciones": 1
+      }
+    ],
+    "ig": 35
+  },
+  {
+    "id": "coco-fresco",
+    "nombre": "Coco fresco",
+    "categoria": "Frutas",
+    "gramosPorRacion": 300,
+    "medidas": [
+      {
+        "descripcion": "Tajada mediana (35g)",
+        "raciones": 1
+      }
+    ],
+    "ig": 45
+  },
+  {
+    "id": "coco-seco",
+    "nombre": "Coco seco",
+    "categoria": "Frutas",
+    "gramosPorRacion": 18,
+    "medidas": [
+      {
+        "descripcion": "Cucharada colmada (20g)",
+        "raciones": 1
+      }
+    ],
+    "ig": 45
+  },
+  {
+    "id": "datil",
+    "nombre": "Dátil",
+    "categoria": "Frutas",
+    "gramosPorRacion": 15,
+    "medidas": [
+      {
+        "descripcion": "Unidad (12g)",
+        "raciones": 0.7
+      }
+    ],
+    "ig": 70
+  },
+  {
+    "id": "frambuesa",
+    "nombre": "Frambuesa",
+    "categoria": "Frutas",
+    "gramosPorRacion": 150,
+    "medidas": [
+      {
+        "descripcion": "Puñado con mano cerrada (20g)",
+        "raciones": 0.2
+      }
+    ],
+    "ig": 25
+  },
+  {
+    "id": "fresones",
+    "nombre": "Fresones",
+    "categoria": "Frutas",
+    "gramosPorRacion": 200,
+    "medidas": [
+      {
+        "descripcion": "8 unidades grandes (200g)",
+        "raciones": 1
+      }
+    ],
+    "ig": 25
+  },
+  {
+    "id": "granada",
+    "nombre": "Granada",
+    "categoria": "Frutas",
+    "gramosPorRacion": 70,
+    "medidas": [
+      {
+        "descripcion": "Unidad (175g)",
+        "raciones": 2.5
+      }
+    ],
+    "ig": 35
+  },
+  {
+    "id": "grosella",
+    "nombre": "Grosella",
+    "categoria": "Frutas",
+    "gramosPorRacion": 200,
+    "medidas": [
+      {
+        "descripcion": "Puñado con mano cerrada (20g)",
+        "raciones": 0.1
+      }
+    ],
+    "ig": 25
+  },
+  {
+    "id": "grosella-negra",
+    "nombre": "Grosella negra",
+    "categoria": "Frutas",
+    "gramosPorRacion": 140,
+    "medidas": [
+      {
+        "descripcion": "Puñado con mano cerrada (20g)",
+        "raciones": 0.2
+      }
+    ],
+    "ig": 15
+  },
+  {
+    "id": "higos",
+    "nombre": "Higos",
+    "categoria": "Frutas",
+    "gramosPorRacion": 100,
+    "medidas": [
+      {
+        "descripcion": "Unidad mediana (50g)",
+        "raciones": 0.5
+      }
+    ],
+    "ig": 35
+  },
+  {
+    "id": "kiwi",
+    "nombre": "Kiwi",
+    "categoria": "Frutas",
+    "gramosPorRacion": 100,
+    "medidas": [
+      {
+        "descripcion": "Unidad mediana (100g)",
+        "raciones": 1
+      }
+    ],
+    "ig": 50
+  },
+  {
+    "id": "limon",
+    "nombre": "Limón",
+    "categoria": "Frutas",
+    "gramosPorRacion": null,
+    "medidas": [],
+    "ig": null
+  },
+  {
+    "id": "litchi",
+    "nombre": "Litchi",
+    "categoria": "Frutas",
+    "gramosPorRacion": 50,
+    "medidas": [
+      {
+        "descripcion": "6 unidades (70g)",
+        "raciones": 1
+      }
+    ],
+    "ig": 50
+  },
+  {
+    "id": "mandarina",
+    "nombre": "Mandarina",
+    "categoria": "Frutas",
+    "gramosPorRacion": 100,
+    "medidas": [
+      {
+        "descripcion": "Unidad mediana (70g)",
+        "raciones": 0.7
+      }
+    ],
+    "ig": 30
+  },
+  {
+    "id": "mango",
+    "nombre": "Mango",
+    "categoria": "Frutas",
+    "gramosPorRacion": 100,
+    "medidas": [
+      {
+        "descripcion": "Unidad mediana (200g)",
+        "raciones": 2
+      }
+    ],
+    "ig": 50
+  },
+  {
+    "id": "manzana",
+    "nombre": "Manzana",
+    "categoria": "Frutas",
+    "gramosPorRacion": 100,
+    "medidas": [
+      {
+        "descripcion": "Unidad mediana (200g)",
+        "raciones": 2
+      }
+    ],
+    "ig": 35
+  },
+  {
+    "id": "manzana-asada",
+    "nombre": "Manzana asada",
+    "categoria": "Frutas",
+    "gramosPorRacion": 50,
+    "medidas": [
+      {
+        "descripcion": "Unidad mediana (120g)",
+        "raciones": 2.5
+      }
+    ],
+    "ig": 35
+  },
+  {
+    "id": "melocoton",
+    "nombre": "Melocotón",
+    "categoria": "Frutas",
+    "gramosPorRacion": 100,
+    "medidas": [
+      {
+        "descripcion": "Unidad mediana (200g)",
+        "raciones": 2
+      }
+    ],
+    "ig": 35
+  },
+  {
+    "id": "melocoton-conserva",
+    "nombre": "Melocotón en conserva",
+    "categoria": "Frutas",
+    "gramosPorRacion": 50,
+    "medidas": [
+      {
+        "descripcion": "Una mitad (50g)",
+        "raciones": 1
+      }
+    ],
+    "ig": 35
+  },
+  {
+    "id": "melon",
+    "nombre": "Melón",
+    "categoria": "Frutas",
+    "gramosPorRacion": 200,
+    "medidas": [
+      {
+        "descripcion": "Una tajada mediana (120g)",
+        "raciones": 1
+      }
+    ],
+    "ig": 60
+  },
+  {
+    "id": "membrillo",
+    "nombre": "Membrillo",
+    "categoria": "Frutas",
+    "gramosPorRacion": 150,
+    "medidas": [
+      {
+        "descripcion": "Unidad mediana (350g)",
+        "raciones": 2.5
+      }
+    ],
+    "ig": 45
+  },
+  {
+    "id": "membrillo-dulce",
+    "nombre": "Membrillo, dulce de",
+    "categoria": "Frutas",
+    "gramosPorRacion": 20,
+    "medidas": [
+      {
+        "descripcion": "Unidad (50g)",
+        "raciones": 1
+      }
+    ],
+    "ig": 65
+  },
+  {
+    "id": "moras",
+    "nombre": "Moras",
+    "categoria": "Frutas",
+    "gramosPorRacion": 150,
+    "medidas": [
+      {
+        "descripcion": "Puñado con mano cerrada (20g)",
+        "raciones": 0.15
+      }
+    ],
+    "ig": 25
+  },
+  {
+    "id": "naranja",
+    "nombre": "Naranja",
+    "categoria": "Frutas",
+    "gramosPorRacion": 100,
+    "medidas": [
+      {
+        "descripcion": "Unidad mediana (200g)",
+        "raciones": 2
+      }
+    ],
+    "ig": 35
+  },
+  {
+    "id": "nectarina",
+    "nombre": "Nectarina",
+    "categoria": "Frutas",
+    "gramosPorRacion": 100,
+    "medidas": [
+      {
+        "descripcion": "Unidad mediana (100g)",
+        "raciones": 1
+      }
+    ],
+    "ig": 35
+  },
+  {
+    "id": "nispero",
+    "nombre": "Níspero",
+    "categoria": "Frutas",
+    "gramosPorRacion": 100,
+    "medidas": [
+      {
+        "descripcion": "Unidad mediana (100g)",
+        "raciones": 0.3
+      }
+    ],
+    "ig": 55
+  },
+  {
+    "id": "pera",
+    "nombre": "Pera",
+    "categoria": "Frutas",
+    "gramosPorRacion": 100,
+    "medidas": [
+      {
+        "descripcion": "Unidad mediana (200g)",
+        "raciones": 2
+      }
+    ],
+    "ig": 30
+  },
+  {
+    "id": "papaya",
+    "nombre": "Papaya",
+    "categoria": "Frutas",
+    "gramosPorRacion": 125,
+    "medidas": [
+      {
+        "descripcion": "Unidad (250g)",
+        "raciones": 2
+      }
+    ],
+    "ig": 35
+  },
+  {
+    "id": "paraguayo",
+    "nombre": "Paraguayo",
+    "categoria": "Frutas",
+    "gramosPorRacion": 100,
+    "medidas": [
+      {
+        "descripcion": "Unidad mediana (100g)",
+        "raciones": 1
+      }
+    ],
+    "ig": 35
+  },
+  {
+    "id": "pina",
+    "nombre": "Piña",
+    "categoria": "Frutas",
+    "gramosPorRacion": 100,
+    "medidas": [
+      {
+        "descripcion": "2 rodajas (100g)",
+        "raciones": 1
+      }
+    ],
+    "ig": 45
+  },
+  {
+    "id": "pina-conserva",
+    "nombre": "Piña en conserva",
+    "categoria": "Frutas",
+    "gramosPorRacion": 85,
+    "medidas": [
+      {
+        "descripcion": "2 rodajas (100g)",
+        "raciones": 0.8
+      }
+    ],
+    "ig": 50
+  },
+  {
+    "id": "pina-su-jugo",
+    "nombre": "Piña en su jugo",
+    "categoria": "Frutas",
+    "gramosPorRacion": 60,
+    "medidas": [
+      {
+        "descripcion": "2 rodajas (100g)",
+        "raciones": 1.6
+      }
+    ],
+    "ig": 50
+  },
+  {
+    "id": "platano",
+    "nombre": "Plátano",
+    "categoria": "Frutas",
+    "gramosPorRacion": 50,
+    "medidas": [
+      {
+        "descripcion": "Unidad pequeña (100g)",
+        "raciones": 2
+      }
+    ],
+    "ig": 60
+  },
+  {
+    "id": "sandia",
+    "nombre": "Sandía",
+    "categoria": "Frutas",
+    "gramosPorRacion": 200,
+    "medidas": [
+      {
+        "descripcion": "Unidad grande (200g)",
+        "raciones": 1
+      }
+    ],
+    "ig": 75
+  },
+  {
+    "id": "uva",
+    "nombre": "Uva",
+    "categoria": "Frutas",
+    "gramosPorRacion": 50,
+    "medidas": [
+      {
+        "descripcion": "12 unidades (100g)",
+        "raciones": 2
+      }
+    ],
+    "ig": 45
+  },
+  {
+    "id": "acelga",
+    "nombre": "Acelga",
+    "categoria": "Hortalizas",
+    "gramosPorRacion": 300,
+    "medidas": [
+      {
+        "descripcion": "Plato grande (200g)",
+        "raciones": 0.8
+      }
+    ],
+    "ig": 15
+  },
+  {
+    "id": "ajo",
+    "nombre": "Ajo",
+    "categoria": "Hortalizas",
+    "gramosPorRacion": 40,
+    "medidas": [
+      {
+        "descripcion": "3 dientes (10g)",
+        "raciones": 0.25
+      }
+    ],
+    "ig": 15
+  },
+  {
+    "id": "alcachofa",
+    "nombre": "Alcachofa",
+    "categoria": "Hortalizas",
+    "gramosPorRacion": 300,
+    "medidas": [
+      {
+        "descripcion": "Plato grande (150g)",
+        "raciones": 0.5
+      }
+    ],
+    "ig": 20
+  },
+  {
+    "id": "apio",
+    "nombre": "Apio",
+    "categoria": "Hortalizas",
+    "gramosPorRacion": 300,
+    "medidas": [],
+    "ig": 15
+  },
+  {
+    "id": "apio-nabo",
+    "nombre": "Apio-nabo",
+    "categoria": "Hortalizas",
+    "gramosPorRacion": 500,
+    "medidas": [
+      {
+        "descripcion": "Guarnición (125g)",
+        "raciones": 0.25
+      }
+    ],
+    "ig": 15
+  },
+  {
+    "id": "berenjena",
+    "nombre": "Berenjena",
+    "categoria": "Hortalizas",
+    "gramosPorRacion": 300,
+    "medidas": [
+      {
+        "descripcion": "Unidad (300g)",
+        "raciones": 1
+      }
+    ],
+    "ig": 20
+  },
+  {
+    "id": "berro",
+    "nombre": "Berro",
+    "categoria": "Hortalizas",
+    "gramosPorRacion": null,
+    "medidas": [],
+    "ig": 15
+  },
+  {
+    "id": "berza",
+    "nombre": "Berza",
+    "categoria": "Hortalizas",
+    "gramosPorRacion": null,
+    "medidas": [],
+    "ig": 15
+  },
+  {
+    "id": "borraja",
+    "nombre": "Borraja",
+    "categoria": "Hortalizas",
+    "gramosPorRacion": null,
+    "medidas": [],
+    "ig": 15
+  },
+  {
+    "id": "brocoli",
+    "nombre": "Brócoli",
+    "categoria": "Hortalizas",
+    "gramosPorRacion": 300,
+    "medidas": [
+      {
+        "descripcion": "Plato grande (300g)",
+        "raciones": 1
+      }
+    ],
+    "ig": 15
+  },
+  {
+    "id": "calabacin",
+    "nombre": "Calabacín",
+    "categoria": "Hortalizas",
+    "gramosPorRacion": 300,
+    "medidas": [
+      {
+        "descripcion": "Unidad (300g)",
+        "raciones": 1
+      }
+    ],
+    "ig": 15
+  },
+  {
+    "id": "calabaza",
+    "nombre": "Calabaza",
+    "categoria": "Hortalizas",
+    "gramosPorRacion": 200,
+    "medidas": [],
+    "ig": 75
+  },
+  {
+    "id": "cardo",
+    "nombre": "Cardo",
+    "categoria": "Hortalizas",
+    "gramosPorRacion": 300,
+    "medidas": [],
+    "ig": 15
+  },
+  {
+    "id": "cebolla",
+    "nombre": "Cebolla",
+    "categoria": "Hortalizas",
+    "gramosPorRacion": 150,
+    "medidas": [
+      {
+        "descripcion": "Unidad mediana (150g)",
+        "raciones": 1
+      }
+    ],
+    "ig": 15
+  },
+  {
+    "id": "cebolla-frita",
+    "nombre": "Cebolla frita en aros",
+    "categoria": "Hortalizas",
+    "gramosPorRacion": 100,
+    "medidas": [],
+    "ig": null
+  },
+  {
+    "id": "champinon",
+    "nombre": "Champiñón",
+    "categoria": "Hortalizas",
+    "gramosPorRacion": null,
+    "medidas": [],
+    "ig": 15
+  },
+  {
+    "id": "col-bruselas-coliflor",
+    "nombre": "Col Bruselas / Coliflor",
+    "categoria": "Hortalizas",
+    "gramosPorRacion": 300,
+    "medidas": [
+      {
+        "descripcion": "Plato grande (300g)",
+        "raciones": 1
+      }
+    ],
+    "ig": 15
+  },
+  {
+    "id": "escarola",
+    "nombre": "Escarola",
+    "categoria": "Hortalizas",
+    "gramosPorRacion": null,
+    "medidas": [],
+    "ig": 15
+  },
+  {
+    "id": "endibia",
+    "nombre": "Endibia",
+    "categoria": "Hortalizas",
+    "gramosPorRacion": 300,
+    "medidas": [
+      {
+        "descripcion": "Unidad (100g)",
+        "raciones": 0.3
+      }
+    ],
+    "ig": 15
+  },
+  {
+    "id": "esparrago-blanco",
+    "nombre": "Espárrago blanco en conserva",
+    "categoria": "Hortalizas",
+    "gramosPorRacion": null,
+    "medidas": [],
+    "ig": 15
+  },
+  {
+    "id": "esparrago-verde",
+    "nombre": "Espárrago verde",
+    "categoria": "Hortalizas",
+    "gramosPorRacion": null,
+    "medidas": [],
+    "ig": 15
+  },
+  {
+    "id": "espinaca",
+    "nombre": "Espinaca",
+    "categoria": "Hortalizas",
+    "gramosPorRacion": null,
+    "medidas": [],
+    "ig": 15
+  },
+  {
+    "id": "grelos",
+    "nombre": "Grelos",
+    "categoria": "Hortalizas",
+    "gramosPorRacion": null,
+    "medidas": [],
+    "ig": 15
+  },
+  {
+    "id": "judia-verde",
+    "nombre": "Judía verde",
+    "categoria": "Hortalizas",
+    "gramosPorRacion": 250,
+    "medidas": [
+      {
+        "descripcion": "Plato grande (250g)",
+        "raciones": 1
+      }
+    ],
+    "ig": 30
+  },
+  {
+    "id": "lechuga",
+    "nombre": "Lechuga",
+    "categoria": "Hortalizas",
+    "gramosPorRacion": 300,
+    "medidas": [
+      {
+        "descripcion": "Ración individual (70g)",
+        "raciones": 0.25
+      }
+    ],
+    "ig": 15
+  },
+  {
+    "id": "lombarda",
+    "nombre": "Lombarda",
+    "categoria": "Hortalizas",
+    "gramosPorRacion": null,
+    "medidas": [],
+    "ig": 15
+  },
+  {
+    "id": "nabo",
+    "nombre": "Nabo",
+    "categoria": "Hortalizas",
+    "gramosPorRacion": 300,
+    "medidas": [
+      {
+        "descripcion": "Unidad (100g)",
+        "raciones": 0.3
+      }
+    ],
+    "ig": 30
+  },
+  {
+    "id": "palmitos",
+    "nombre": "Palmitos",
+    "categoria": "Hortalizas",
+    "gramosPorRacion": 200,
+    "medidas": [
+      {
+        "descripcion": "Unidad (25g)",
+        "raciones": 0.1
+      }
+    ],
+    "ig": 20
+  },
+  {
+    "id": "pepino",
+    "nombre": "Pepino",
+    "categoria": "Hortalizas",
+    "gramosPorRacion": 300,
+    "medidas": [
+      {
+        "descripcion": "Unidad mediana (150g)",
+        "raciones": 0.5
+      }
+    ],
+    "ig": 15
+  },
+  {
+    "id": "pimiento",
+    "nombre": "Pimiento rojo/verde",
+    "categoria": "Hortalizas",
+    "gramosPorRacion": 300,
+    "medidas": [
+      {
+        "descripcion": "Unidad mediana (150g)",
+        "raciones": 0.5
+      }
+    ],
+    "ig": 15
+  },
+  {
+    "id": "puerro",
+    "nombre": "Puerro",
+    "categoria": "Hortalizas",
+    "gramosPorRacion": 300,
+    "medidas": [
+      {
+        "descripcion": "Unidad mediana (75g)",
+        "raciones": 0.25
+      }
+    ],
+    "ig": 15
+  },
+  {
+    "id": "rabano",
+    "nombre": "Rábano",
+    "categoria": "Hortalizas",
+    "gramosPorRacion": 300,
+    "medidas": [
+      {
+        "descripcion": "5 unidades medianas (100g)",
+        "raciones": 0.3
+      }
+    ],
+    "ig": 15
+  },
+  {
+    "id": "remolacha",
+    "nombre": "Remolacha",
+    "categoria": "Hortalizas",
+    "gramosPorRacion": 150,
+    "medidas": [
+      {
+        "descripcion": "Guarnición (125g)",
+        "raciones": 0.8
+      }
+    ],
+    "ig": 30
+  },
+  {
+    "id": "repollo",
+    "nombre": "Repollo",
+    "categoria": "Hortalizas",
+    "gramosPorRacion": 300,
+    "medidas": [
+      {
+        "descripcion": "Guarnición (125g)",
+        "raciones": 0.4
+      }
+    ],
+    "ig": 15
+  },
+  {
+    "id": "ruibarbo",
+    "nombre": "Ruibarbo",
+    "categoria": "Hortalizas",
+    "gramosPorRacion": null,
+    "medidas": [],
+    "ig": 15
+  },
+  {
+    "id": "setas",
+    "nombre": "Setas",
+    "categoria": "Hortalizas",
+    "gramosPorRacion": 300,
+    "medidas": [
+      {
+        "descripcion": "Plato grande (200g)",
+        "raciones": 0.7
+      }
+    ],
+    "ig": 15
+  },
+  {
+    "id": "soja-en-brotes",
+    "nombre": "Soja en brotes",
+    "categoria": "Hortalizas",
+    "gramosPorRacion": 300,
+    "medidas": [],
+    "ig": 15
+  },
+  {
+    "id": "tomate",
+    "nombre": "Tomate",
+    "categoria": "Hortalizas",
+    "gramosPorRacion": 300,
+    "medidas": [
+      {
+        "descripcion": "Unidad mediana (150g)",
+        "raciones": 0.5
+      }
+    ],
+    "ig": 30
+  },
+  {
+    "id": "zanahoria",
+    "nombre": "Zanahoria",
+    "categoria": "Hortalizas",
+    "gramosPorRacion": 150,
+    "medidas": [
+      {
+        "descripcion": "Unidad mediana (70g)",
+        "raciones": 0.3
+      }
+    ],
+    "ig": 35
+  },
+  {
+    "id": "zanahoria-hervida",
+    "nombre": "Zanahoria hervida",
+    "categoria": "Hortalizas",
+    "gramosPorRacion": 200,
+    "medidas": [
+      {
+        "descripcion": "Unidad mediana (70g)",
+        "raciones": 0.5
+      }
+    ],
+    "ig": 85
+  },
+  {
+    "id": "zanahoria-conserva",
+    "nombre": "Zanahoria en conserva",
+    "categoria": "Hortalizas",
+    "gramosPorRacion": 225,
+    "medidas": [],
+    "ig": null
+  },
+  {
+    "id": "aceituna",
+    "nombre": "Aceituna",
+    "categoria": "Fruta grasa y seca",
+    "gramosPorRacion": 250,
+    "medidas": [
+      {
+        "descripcion": "Una tapa (5 unidades, 30g)",
+        "raciones": 0.1
+      }
+    ],
+    "ig": null
+  },
+  {
+    "id": "albaricoque-seco",
+    "nombre": "Albaricoque seco",
+    "categoria": "Fruta grasa y seca",
+    "gramosPorRacion": 50,
+    "medidas": [
+      {
+        "descripcion": "Unidad (15g)",
+        "raciones": 0.3
+      }
+    ],
+    "ig": 35
+  },
+  {
+    "id": "almendra",
+    "nombre": "Almendra",
+    "categoria": "Fruta grasa y seca",
+    "gramosPorRacion": 150,
+    "medidas": [
+      {
+        "descripcion": "Puñado con mano cerrada (20g)",
+        "raciones": 0.1
+      }
+    ],
+    "ig": 15
+  },
+  {
+    "id": "almendra-tostada",
+    "nombre": "Almendra tostada",
+    "categoria": "Fruta grasa y seca",
+    "gramosPorRacion": 140,
+    "medidas": [
+      {
+        "descripcion": "Puñado con mano cerrada (20g)",
+        "raciones": 0.1
+      }
+    ],
+    "ig": 15
+  },
+  {
+    "id": "avellana",
+    "nombre": "Avellana",
+    "categoria": "Fruta grasa y seca",
+    "gramosPorRacion": 150,
+    "medidas": [
+      {
+        "descripcion": "Puñado con mano cerrada (20g)",
+        "raciones": 0.1
+      }
+    ],
+    "ig": 15
+  },
+  {
+    "id": "cacahuete",
+    "nombre": "Cacahuete",
+    "categoria": "Fruta grasa y seca",
+    "gramosPorRacion": 100,
+    "medidas": [
+      {
+        "descripcion": "Puñado con mano cerrada (20g)",
+        "raciones": 0.2
+      }
+    ],
+    "ig": 15
+  },
+  {
+    "id": "ciruela-pasa",
+    "nombre": "Ciruela pasa",
+    "categoria": "Fruta grasa y seca",
+    "gramosPorRacion": 15,
+    "medidas": [
+      {
+        "descripcion": "Unidad (8g)",
+        "raciones": 0.5
+      }
+    ],
+    "ig": 40
+  },
+  {
+    "id": "datil-seco",
+    "nombre": "Dátil seco",
+    "categoria": "Fruta grasa y seca",
+    "gramosPorRacion": 15,
+    "medidas": [
+      {
+        "descripcion": "Unidad (10g)",
+        "raciones": 0.7
+      }
+    ],
+    "ig": 70
+  },
+  {
+    "id": "higo-seco",
+    "nombre": "Higo seco",
+    "categoria": "Fruta grasa y seca",
+    "gramosPorRacion": 15,
+    "medidas": [
+      {
+        "descripcion": "Unidad (8g)",
+        "raciones": 0.5
+      }
+    ],
+    "ig": 40
+  },
+  {
+    "id": "nuez",
+    "nombre": "Nuez",
+    "categoria": "Fruta grasa y seca",
+    "gramosPorRacion": 300,
+    "medidas": [
+      {
+        "descripcion": "Puñado con mano cerrada (20g)",
+        "raciones": 0
+      }
+    ],
+    "ig": 15
+  },
+  {
+    "id": "pinon",
+    "nombre": "Piñón",
+    "categoria": "Fruta grasa y seca",
+    "gramosPorRacion": 300,
+    "medidas": [
+      {
+        "descripcion": "Puñado con mano cerrada (20g)",
+        "raciones": 0.1
+      }
+    ],
+    "ig": 15
+  },
+  {
+    "id": "pipas",
+    "nombre": "Pipas",
+    "categoria": "Fruta grasa y seca",
+    "gramosPorRacion": 80,
+    "medidas": [
+      {
+        "descripcion": "Puñado con mano cerrada (15g)",
+        "raciones": 0.2
+      }
+    ],
+    "ig": 35
+  },
+  {
+    "id": "pistacho",
+    "nombre": "Pistacho",
+    "categoria": "Fruta grasa y seca",
+    "gramosPorRacion": 80,
+    "medidas": [
+      {
+        "descripcion": "Puñado con mano cerrada (20g)",
+        "raciones": 0.2
+      }
+    ],
+    "ig": 15
+  },
+  {
+    "id": "sesamo",
+    "nombre": "Sésamo",
+    "categoria": "Fruta grasa y seca",
+    "gramosPorRacion": 100,
+    "medidas": [
+      {
+        "descripcion": "Cucharada sopera rasa (12g)",
+        "raciones": 0.1
+      }
+    ],
+    "ig": null
+  },
+  {
+    "id": "uva-pasa",
+    "nombre": "Uva pasa",
+    "categoria": "Fruta grasa y seca",
+    "gramosPorRacion": 15,
+    "medidas": [
+      {
+        "descripcion": "Puñado con mano cerrada (20g)",
+        "raciones": 1.25
+      }
+    ],
+    "ig": 65
+  },
+  {
+    "id": "bebida-cola-light",
+    "nombre": "Bebida refrescante tipo cola light o sin azúcar",
+    "categoria": "Bebidas",
+    "gramosPorRacion": null,
+    "medidas": [],
+    "ig": 0
+  },
+  {
+    "id": "bebida-cacao",
+    "nombre": "Bebida de cacao",
+    "categoria": "Bebidas",
+    "gramosPorRacion": 100,
+    "medidas": [
+      {
+        "descripcion": "Vaso o brick de 200cc",
+        "raciones": 2
+      }
+    ],
+    "ig": null
+  },
+  {
+    "id": "bebida-soja",
+    "nombre": "Bebida de soja",
+    "categoria": "Bebidas",
+    "gramosPorRacion": 250,
+    "medidas": [
+      {
+        "descripcion": "Vaso o brick de 200cc",
+        "raciones": 0.8
+      }
+    ],
+    "ig": 35
+  },
+  {
+    "id": "bebida-energetica",
+    "nombre": "Bebida energética",
+    "categoria": "Bebidas",
+    "gramosPorRacion": 80,
+    "medidas": [
+      {
+        "descripcion": "Lata de 250cc",
+        "raciones": 3
+      }
+    ],
+    "ig": 70
+  },
+  {
+    "id": "bitter",
+    "nombre": "Bitter",
+    "categoria": "Bebidas",
+    "gramosPorRacion": 100,
+    "medidas": [
+      {
+        "descripcion": "1 botellín de 200cc",
+        "raciones": 2
+      }
+    ],
+    "ig": 70
+  },
+  {
+    "id": "cava-brut",
+    "nombre": "Cava brut",
+    "categoria": "Bebidas",
+    "gramosPorRacion": null,
+    "medidas": [],
+    "ig": 0
+  },
+  {
+    "id": "cava-seco-semiseco",
+    "nombre": "Cava seco o semiseco",
+    "categoria": "Bebidas",
+    "gramosPorRacion": 250,
+    "medidas": [
+      {
+        "descripcion": "Copa (100cc)",
+        "raciones": 0.4
+      }
+    ],
+    "ig": 0
+  },
+  {
+    "id": "cerveza",
+    "nombre": "Cerveza",
+    "categoria": "Bebidas",
+    "gramosPorRacion": 250,
+    "medidas": [
+      {
+        "descripcion": "Vaso o caña de (200cc)",
+        "raciones": 0.8
+      },
+      {
+        "descripcion": "Tercio o mediana (330cc)",
+        "raciones": 1.3
+      },
+      {
+        "descripcion": "Jarra (500cc)",
+        "raciones": 2
+      }
+    ],
+    "ig": 110
+  },
+  {
+    "id": "cerveza-light",
+    "nombre": "Cerveza light",
+    "categoria": "Bebidas",
+    "gramosPorRacion": 300,
+    "medidas": [
+      {
+        "descripcion": "Vaso o caña de (200cc)",
+        "raciones": 0.7
+      },
+      {
+        "descripcion": "Tercio o mediana (330cc)",
+        "raciones": 1.1
+      },
+      {
+        "descripcion": "Jarra (500cc)",
+        "raciones": 1.7
+      }
+    ],
+    "ig": null
+  },
+  {
+    "id": "cerveza-sin-alcohol",
+    "nombre": "Cerveza sin alcohol",
+    "categoria": "Bebidas",
+    "gramosPorRacion": 250,
+    "medidas": [
+      {
+        "descripcion": "Vaso o caña de (200cc)",
+        "raciones": 0.8
+      },
+      {
+        "descripcion": "Tercio o mediana (330cc)",
+        "raciones": 1.3
+      },
+      {
+        "descripcion": "Jarra (500cc)",
+        "raciones": 2
+      }
+    ],
+    "ig": 110
+  },
+  {
+    "id": "destilados",
+    "nombre": "Destilados (ginebra, whisky, ron, vodka)",
+    "categoria": "Bebidas",
+    "gramosPorRacion": null,
+    "medidas": [],
+    "ig": 0
+  },
+  {
+    "id": "gaseosa",
+    "nombre": "Gaseosa",
+    "categoria": "Bebidas",
+    "gramosPorRacion": null,
+    "medidas": [],
+    "ig": 0
+  },
+  {
+    "id": "horchata",
+    "nombre": "Horchata",
+    "categoria": "Bebidas",
+    "gramosPorRacion": 75,
+    "medidas": [
+      {
+        "descripcion": "Un vaso (200cc)",
+        "raciones": 2.6
+      }
+    ],
+    "ig": null
+  },
+  {
+    "id": "horchata-light",
+    "nombre": "Horchata light",
+    "categoria": "Bebidas",
+    "gramosPorRacion": 300,
+    "medidas": [
+      {
+        "descripcion": "Un vaso (200cc)",
+        "raciones": 0.7
+      }
+    ],
+    "ig": null
+  },
+  {
+    "id": "licor",
+    "nombre": "Licor de melocotón o manzana",
+    "categoria": "Bebidas",
+    "gramosPorRacion": 30,
+    "medidas": [
+      {
+        "descripcion": "Un chupito (30cc)",
+        "raciones": 1
+      }
+    ],
+    "ig": null
+  },
+  {
+    "id": "mosto",
+    "nombre": "Mosto",
+    "categoria": "Bebidas",
+    "gramosPorRacion": 100,
+    "medidas": [
+      {
+        "descripcion": "Una copa (100cc)",
+        "raciones": 1
+      }
+    ],
+    "ig": null
+  },
+  {
+    "id": "sangria",
+    "nombre": "Sangría",
+    "categoria": "Bebidas",
+    "gramosPorRacion": 100,
+    "medidas": [
+      {
+        "descripcion": "Un vaso (200cc)",
+        "raciones": 2
+      }
+    ],
+    "ig": null
+  },
+  {
+    "id": "sidra",
+    "nombre": "Sidra",
+    "categoria": "Bebidas",
+    "gramosPorRacion": 200,
+    "medidas": [
+      {
+        "descripcion": "Un vaso o copa (100cc)",
+        "raciones": 0.5
+      }
+    ],
+    "ig": 0
+  },
+  {
+    "id": "tonica",
+    "nombre": "Tónica",
+    "categoria": "Bebidas",
+    "gramosPorRacion": 100,
+    "medidas": [
+      {
+        "descripcion": "Una botella (200cc)",
+        "raciones": 2
+      }
+    ],
+    "ig": 70
+  },
+  {
+    "id": "vermut",
+    "nombre": "Vermut",
+    "categoria": "Bebidas",
+    "gramosPorRacion": 75,
+    "medidas": [
+      {
+        "descripcion": "Una copa (100cc)",
+        "raciones": 1.3
+      }
+    ],
+    "ig": null
+  },
+  {
+    "id": "vino-blanco-tinto",
+    "nombre": "Vino blanco o tinto",
+    "categoria": "Bebidas",
+    "gramosPorRacion": null,
+    "medidas": [],
+    "ig": 0
+  },
+  {
+    "id": "vino-dulce",
+    "nombre": "Vino dulce",
+    "categoria": "Bebidas",
+    "gramosPorRacion": 75,
+    "medidas": [
+      {
+        "descripcion": "Un chupito (30cc)",
+        "raciones": 0.4
+      }
+    ],
+    "ig": null
+  },
+  {
+    "id": "zumo-fruta-comercial",
+    "nombre": "Zumo de fruta comercial",
+    "categoria": "Bebidas",
+    "gramosPorRacion": 100,
+    "medidas": [
+      {
+        "descripcion": "Un vaso o brick (200cc)",
+        "raciones": 2
+      }
+    ],
+    "ig": 60
+  },
+  {
+    "id": "zumo-fruta-natural",
+    "nombre": "Zumo de fruta natural o sin azúcar añadido",
+    "categoria": "Bebidas",
+    "gramosPorRacion": 250,
+    "medidas": [
+      {
+        "descripcion": "Un vaso o brick (200cc)",
+        "raciones": 0.8
+      }
+    ],
+    "ig": 45
+  },
+  {
+    "id": "azucar-blanco",
+    "nombre": "Azúcar blanco",
+    "categoria": "Otros",
+    "gramosPorRacion": 10,
+    "medidas": [
+      {
+        "descripcion": "Cucharada postre (8g)",
+        "raciones": 0.8
+      },
+      {
+        "descripcion": "Sobre (8g)",
+        "raciones": 0.8
+      },
+      {
+        "descripcion": "Cucharada sopera (20g)",
+        "raciones": 2
+      }
+    ],
+    "ig": 70
+  },
+  {
+    "id": "azucar-moreno",
+    "nombre": "Azúcar moreno",
+    "categoria": "Otros",
+    "gramosPorRacion": 10,
+    "medidas": [
+      {
+        "descripcion": "Cucharada postre (8g)",
+        "raciones": 0.8
+      },
+      {
+        "descripcion": "Cucharada sopera (20g)",
+        "raciones": 2
+      },
+      {
+        "descripcion": "Sobre (8g)",
+        "raciones": 0.8
+      }
+    ],
+    "ig": 70
+  },
+  {
+    "id": "barrita-energetica",
+    "nombre": "Barrita energética (de cereales)",
+    "categoria": "Otros",
+    "gramosPorRacion": 20,
+    "medidas": [
+      {
+        "descripcion": "Unidad (20g)",
+        "raciones": 1.25
+      }
+    ],
+    "ig": 70
+  },
+  {
+    "id": "bizcocho",
+    "nombre": "Bizcocho o melindro",
+    "categoria": "Otros",
+    "gramosPorRacion": 20,
+    "medidas": [
+      {
+        "descripcion": "Unidad comercial (25g)",
+        "raciones": 1.25
+      }
+    ],
+    "ig": 65
+  },
+  {
+    "id": "bolleria",
+    "nombre": "Bollería, en general",
+    "categoria": "Otros",
+    "gramosPorRacion": 20,
+    "medidas": [],
+    "ig": 70
+  },
+  {
+    "id": "cruasan",
+    "nombre": "Cruasán",
+    "categoria": "Otros",
+    "gramosPorRacion": 20,
+    "medidas": [
+      {
+        "descripcion": "Unidad (60g)",
+        "raciones": 3
+      }
+    ],
+    "ig": 70
+  },
+  {
+    "id": "cacao-en-polvo",
+    "nombre": "Cacao en polvo",
+    "categoria": "Otros",
+    "gramosPorRacion": 12,
+    "medidas": [
+      {
+        "descripcion": "Cucharada postre (8g)",
+        "raciones": 0.7
+      },
+      {
+        "descripcion": "Cucharada sopera (20g)",
+        "raciones": 1.7
+      }
+    ],
+    "ig": null
+  },
+  {
+    "id": "cacao-en-polvo-sin-azucar",
+    "nombre": "Cacao en polvo sin azúcar",
+    "categoria": "Otros",
+    "gramosPorRacion": 22,
+    "medidas": [
+      {
+        "descripcion": "Cucharada postre (8g)",
+        "raciones": 0.4
+      },
+      {
+        "descripcion": "Cucharada sopera (20g)",
+        "raciones": 0.9
+      }
+    ],
+    "ig": null
+  },
+  {
+    "id": "calamares-romana",
+    "nombre": "Calamares a la romana",
+    "categoria": "Otros",
+    "gramosPorRacion": 120,
+    "medidas": [
+      {
+        "descripcion": "4 unidades",
+        "raciones": 1
+      }
+    ],
+    "ig": null
+  },
+  {
+    "id": "canelones",
+    "nombre": "Canelones con bechamel",
+    "categoria": "Otros",
+    "gramosPorRacion": 50,
+    "medidas": [
+      {
+        "descripcion": "3 unidades (250g)",
+        "raciones": 2.5
+      }
+    ],
+    "ig": null
+  },
+  {
+    "id": "caramelo",
+    "nombre": "Caramelo",
+    "categoria": "Otros",
+    "gramosPorRacion": 12,
+    "medidas": [
+      {
+        "descripcion": "Unidad (5g)",
+        "raciones": 0.4
+      }
+    ],
+    "ig": 70
+  },
+  {
+    "id": "chocolate-blanco-con-leche",
+    "nombre": "Chocolate blanco o con leche",
+    "categoria": "Otros",
+    "gramosPorRacion": 17,
+    "medidas": [
+      {
+        "descripcion": "Pastilla (8g)",
+        "raciones": 0.5
+      },
+      {
+        "descripcion": "Tableta individual (30g)",
+        "raciones": 1.7
+      }
+    ],
+    "ig": 70
+  },
+  {
+    "id": "chocolate-negro",
+    "nombre": "Chocolate negro",
+    "categoria": "Otros",
+    "gramosPorRacion": 25,
+    "medidas": [
+      {
+        "descripcion": "Pastilla (8g)",
+        "raciones": 0.3
+      },
+      {
+        "descripcion": "Tableta individual (30g)",
+        "raciones": 1.2
+      }
+    ],
+    "ig": 20
+  },
+  {
+    "id": "churros",
+    "nombre": "Churros",
+    "categoria": "Otros",
+    "gramosPorRacion": 25,
+    "medidas": [
+      {
+        "descripcion": "2 unidades (25g)",
+        "raciones": 1
+      }
+    ],
+    "ig": null
+  },
+  {
+    "id": "crema-de-cacao",
+    "nombre": "Crema de cacao",
+    "categoria": "Otros",
+    "gramosPorRacion": 25,
+    "medidas": [
+      {
+        "descripcion": "Cucharada sopera colmada (18g)",
+        "raciones": 0.7
+      }
+    ],
+    "ig": 55
+  },
+  {
+    "id": "crema-de-cacahuete",
+    "nombre": "Crema de cacahuete",
+    "categoria": "Otros",
+    "gramosPorRacion": 100,
+    "medidas": [
+      {
+        "descripcion": "Cucharada sopera colmada (23g)",
+        "raciones": 0.2
+      }
+    ],
+    "ig": 40
+  },
+  {
+    "id": "crema-pastelera",
+    "nombre": "Crema pastelera",
+    "categoria": "Otros",
+    "gramosPorRacion": 40,
+    "medidas": [
+      {
+        "descripcion": "Cucharada sopera colmada (30g)",
+        "raciones": 0.8
+      }
+    ],
+    "ig": null
+  },
+  {
+    "id": "croquetas",
+    "nombre": "Croquetas",
+    "categoria": "Otros",
+    "gramosPorRacion": 50,
+    "medidas": [
+      {
+        "descripcion": "3 unidades (60g)",
+        "raciones": 1.8
+      }
+    ],
+    "ig": null
+  },
+  {
+    "id": "donut",
+    "nombre": "Donut",
+    "categoria": "Otros",
+    "gramosPorRacion": 23,
+    "medidas": [
+      {
+        "descripcion": "Unidad (50g)",
+        "raciones": 2.5
+      }
+    ],
+    "ig": 75
+  },
+  {
+    "id": "empanadilla",
+    "nombre": "Empanadilla de carne",
+    "categoria": "Otros",
+    "gramosPorRacion": 50,
+    "medidas": [
+      {
+        "descripcion": "2 unidades (80g)",
+        "raciones": 1.6
+      }
+    ],
+    "ig": null
+  },
+  {
+    "id": "ensaimada",
+    "nombre": "Ensaimada",
+    "categoria": "Otros",
+    "gramosPorRacion": 23,
+    "medidas": [
+      {
+        "descripcion": "Unidad (30g)",
+        "raciones": 3
+      }
+    ],
+    "ig": null
+  },
+  {
+    "id": "fructosa",
+    "nombre": "Fructosa (edulcorante)",
+    "categoria": "Otros",
+    "gramosPorRacion": 10,
+    "medidas": [
+      {
+        "descripcion": "Cucharada sopera",
+        "raciones": 2
+      }
+    ],
+    "ig": 20
+  },
+  {
+    "id": "gazpacho-comercial",
+    "nombre": "Gazpacho comercial",
+    "categoria": "Otros",
+    "gramosPorRacion": 150,
+    "medidas": [
+      {
+        "descripcion": "Vaso (200cc)",
+        "raciones": 1.3
+      }
+    ],
+    "ig": null
+  },
+  {
+    "id": "gelatina-comercial",
+    "nombre": "Gelatina comercial",
+    "categoria": "Otros",
+    "gramosPorRacion": 62,
+    "medidas": [
+      {
+        "descripcion": "Unidad (125cc)",
+        "raciones": 2
+      }
+    ],
+    "ig": null
+  },
+  {
+    "id": "glucosa",
+    "nombre": "Glucosa (líquida o en pastillas)",
+    "categoria": "Otros",
+    "gramosPorRacion": 10,
+    "medidas": [
+      {
+        "descripcion": "Pastilla pequeña (2.5g)",
+        "raciones": 0.25
+      },
+      {
+        "descripcion": "Pastilla normal (5g)",
+        "raciones": 0.5
+      },
+      {
+        "descripcion": "Gel deportivo (40g)",
+        "raciones": 2.5
+      }
+    ],
+    "ig": 100
+  },
+  {
+    "id": "golosinas",
+    "nombre": "Golosinas",
+    "categoria": "Otros",
+    "gramosPorRacion": 15,
+    "medidas": [],
+    "ig": 70
+  },
+  {
+    "id": "ketchup",
+    "nombre": "Ketchup",
+    "categoria": "Otros",
+    "gramosPorRacion": 50,
+    "medidas": [
+      {
+        "descripcion": "Sobre (8g)",
+        "raciones": 0.2
+      }
+    ],
+    "ig": 55
+  },
+  {
+    "id": "lasana",
+    "nombre": "Lasaña",
+    "categoria": "Otros",
+    "gramosPorRacion": 100,
+    "medidas": [
+      {
+        "descripcion": "Plato restaurante (260g)",
+        "raciones": 2.7
+      }
+    ],
+    "ig": null
+  },
+  {
+    "id": "magdalena",
+    "nombre": "Magdalena",
+    "categoria": "Otros",
+    "gramosPorRacion": 25,
+    "medidas": [
+      {
+        "descripcion": "Unidad (50g)",
+        "raciones": 2
+      }
+    ],
+    "ig": null
+  },
+  {
+    "id": "mazapan",
+    "nombre": "Mazapán",
+    "categoria": "Otros",
+    "medidas": [
+      {
+        "descripcion": "Unidad (35g)",
+        "raciones": 1.4
+      }
+    ],
+    "gramosPorRacion": 25,
+    "ig": null
+  },
+  {
+    "id": "merengue",
+    "nombre": "Merengue",
+    "categoria": "Otros",
+    "gramosPorRacion": 11,
+    "medidas": [],
+    "ig": null
+  },
+  {
+    "id": "mermelada",
+    "nombre": "Mermelada",
+    "categoria": "Otros",
+    "gramosPorRacion": 20,
+    "medidas": [
+      {
+        "descripcion": "Cucharada sopera (25g)",
+        "raciones": 1.25
+      }
+    ],
+    "ig": 65
+  },
+  {
+    "id": "mermelada-light",
+    "nombre": "Mermelada light",
+    "categoria": "Otros",
+    "gramosPorRacion": null,
+    "medidas": [],
+    "ig": 30
+  },
+  {
+    "id": "miel",
+    "nombre": "Miel",
+    "categoria": "Otros",
+    "gramosPorRacion": 13,
+    "medidas": [
+      {
+        "descripcion": "Cucharada sopera (18g)",
+        "raciones": 1.3
+      }
+    ],
+    "ig": 85
+  },
+  {
+    "id": "mostaza",
+    "nombre": "Mostaza",
+    "categoria": "Otros",
+    "gramosPorRacion": null,
+    "medidas": [],
+    "ig": null
+  },
+  {
+    "id": "palomitas",
+    "nombre": "Palomitas",
+    "categoria": "Otros",
+    "gramosPorRacion": 20,
+    "medidas": [],
+    "ig": 85
+  },
+  {
+    "id": "pastel-chocolate",
+    "nombre": "Pastel de chocolate",
+    "categoria": "Otros",
+    "gramosPorRacion": 25,
+    "medidas": [
+      {
+        "descripcion": "Porción (100g)",
+        "raciones": 4
+      }
+    ],
+    "ig": null
+  },
+  {
+    "id": "pastel-crema",
+    "nombre": "Pastel de crema",
+    "categoria": "Otros",
+    "gramosPorRacion": 35,
+    "medidas": [
+      {
+        "descripcion": "Porción (100g)",
+        "raciones": 2.8
+      }
+    ],
+    "ig": null
+  },
+  {
+    "id": "pepinillos-vinagre",
+    "nombre": "Pepinillos en vinagre",
+    "categoria": "Otros",
+    "gramosPorRacion": null,
+    "medidas": [],
+    "ig": null
+  },
+  {
+    "id": "pizza",
+    "nombre": "Pizza",
+    "categoria": "Otros",
+    "gramosPorRacion": 40,
+    "medidas": [
+      {
+        "descripcion": "Triángulo (100g, 1/4 pizza)",
+        "raciones": 2.5
+      },
+      {
+        "descripcion": "Media pizza individual (200g)",
+        "raciones": 5
+      },
+      {
+        "descripcion": "Pizza individual (400g)",
+        "raciones": 10
+      }
+    ],
+    "ig": 45
+  },
+  {
+    "id": "regaliz",
+    "nombre": "Regaliz",
+    "categoria": "Otros",
+    "gramosPorRacion": 15,
+    "medidas": [
+      {
+        "descripcion": "Unidad (8g)",
+        "raciones": 0.5
+      }
+    ],
+    "ig": null
+  },
+  {
+    "id": "salsa-barbacoa",
+    "nombre": "Salsa barbacoa",
+    "categoria": "Otros",
+    "gramosPorRacion": 100,
+    "medidas": [
+      {
+        "descripcion": "3 cucharadas soperas (50g)",
+        "raciones": 0.5
+      }
+    ],
+    "ig": null
+  },
+  {
+    "id": "salsa-bechamel",
+    "nombre": "Salsa bechamel",
+    "categoria": "Otros",
+    "gramosPorRacion": 100,
+    "medidas": [
+      {
+        "descripcion": "3 cucharadas soperas (50g)",
+        "raciones": 0.5
+      }
+    ],
+    "ig": null
+  },
+  {
+    "id": "salsa-bolonesa",
+    "nombre": "Salsa boloñesa",
+    "categoria": "Otros",
+    "gramosPorRacion": 150,
+    "medidas": [
+      {
+        "descripcion": "3 soperas (75g)",
+        "raciones": 0.5
+      }
+    ],
+    "ig": null
+  },
+  {
+    "id": "salsa-carbonara",
+    "nombre": "Salsa carbonara",
+    "categoria": "Otros",
+    "gramosPorRacion": null,
+    "medidas": [],
+    "ig": 0
+  },
+  {
+    "id": "salsa-tomate-natural",
+    "nombre": "Salsa de tomate natural",
+    "categoria": "Otros",
+    "gramosPorRacion": 50,
+    "medidas": [],
+    "ig": null
+  },
+  {
+    "id": "salsa-soja",
+    "nombre": "Salsa de soja",
+    "categoria": "Otros",
+    "gramosPorRacion": null,
+    "medidas": [],
+    "ig": 0
+  },
+  {
+    "id": "surimi",
+    "nombre": "Surimi (palitos de cangrejo)",
+    "categoria": "Otros",
+    "gramosPorRacion": 100,
+    "medidas": [
+      {
+        "descripcion": "Barrita (20g)",
+        "raciones": 0.2
+      }
+    ],
+    "ig": null
+  },
+  {
+    "id": "tarta-manzana",
+    "nombre": "Tarta de manzana",
+    "categoria": "Otros",
+    "gramosPorRacion": 25,
+    "medidas": [
+      {
+        "descripcion": "Porción (100g)",
+        "raciones": 4
+      }
+    ],
+    "ig": null
+  },
+  {
+    "id": "tofu",
+    "nombre": "Tofu",
+    "categoria": "Otros",
+    "gramosPorRacion": null,
+    "medidas": [],
+    "ig": 0
+  },
+  {
+    "id": "tortilla-de-patatas",
+    "nombre": "Tortilla de patatas",
+    "categoria": "Otros",
+    "gramosPorRacion": 120,
+    "medidas": [
+      {
+        "descripcion": "Tapa (100g)",
+        "raciones": 1
+      }
+    ],
+    "ig": null
+  },
+  {
+    "id": "turron-alicante",
+    "nombre": "Turrón tipo Alicante",
+    "categoria": "Otros",
+    "gramosPorRacion": 25,
+    "medidas": [
+      {
+        "descripcion": "Tableta (50g)",
+        "raciones": 2
+      }
+    ],
+    "ig": null
+  },
+  {
+    "id": "turron-jijona",
+    "nombre": "Turrón tipo Jijona",
+    "categoria": "Otros",
+    "gramosPorRacion": 25,
+    "medidas": [
+      {
+        "descripcion": "1/6 tableta (50g)",
+        "raciones": 2
+      }
+    ],
+    "ig": null
+  },
+  {
+    "id": "vinagre",
+    "nombre": "Vinagre",
+    "categoria": "Otros",
+    "gramosPorRacion": null,
+    "medidas": [],
+    "ig": 0
+  },
+  {
+    "id": "vinagre-modena",
+    "nombre": "Vinagre tipo Módena (caramelizado)",
+    "categoria": "Otros",
+    "gramosPorRacion": 15,
+    "medidas": [
+      {
+        "descripcion": "Cucharada sopera (15g)",
+        "raciones": 1
+      }
+    ],
+    "ig": null
+  }
+]
